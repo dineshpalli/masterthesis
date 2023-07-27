@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  27 JUL 2023 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  27 JUL 2023 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1106,7 +1106,10 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: Float too large for page by 811.20457pt on input line 491.
 
 
-LaTeX Warning: Reference `multifig5:mergeddataset_clusters, tab:DMLonmergeddataset' on page 22 undefined on input line 494.
+LaTeX Warning: Reference `multifig5:mergeddataset_clusters' on page 22 undefined on input line 494.
+
+
+LaTeX Warning: Reference `tab:DMLonmergeddataset' on page 22 undefined on input line 494.
 
 
 LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_salmonella.png' not found on input line 500.
@@ -1170,7 +1173,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `tab:performanceofdl' on page 26 undefined on input line 539.
 
 
-LaTeX Warning: Reference `multifig5:Outoftheboxclusters' on page 26 undefined on input line 539.
+LaTeX Warning: Reference `multifig6:Outoftheboxclusters' on page 26 undefined on input line 539.
 
 
 LaTeX Warning: Reference `cp' on page 26 undefined on input line 545.
@@ -1244,7 +1247,7 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: Float too large for page by 835.20457pt on input line 583.
 
 
-LaTeX Warning: Reference `multifig6:ClustersaftertrainingscDINO' on page 26 undefined on input line 589.
+LaTeX Warning: Reference `multifig7:ClustersaftertrainingscDINO' on page 26 undefined on input line 589.
 
 
 LaTeX Warning: Reference `tab:aftertrainingperformanceofscDINO' on page 26 undefined on input line 589.
@@ -1663,15 +1666,15 @@ Package rerunfilecheck Info: Checksums for `My_Masters_Thesis.out':
 (rerunfilecheck)             After:  FF33D6240B53ACC64BD24978D3EE3F67;6683.
  ) 
 Here is how much of TeX's memory you used:
- 15639 strings out of 476025
- 324450 string characters out of 5790017
- 1866388 words of memory out of 5000000
- 35627 multiletter control sequences out of 15000+600000
+ 15636 strings out of 476025
+ 324322 string characters out of 5790017
+ 1867388 words of memory out of 5000000
+ 35624 multiletter control sequences out of 15000+600000
  521021 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,92p,2898b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on My_Masters_Thesis.pdf (47 pages, 526756 bytes).
+Output written on My_Masters_Thesis.pdf (47 pages, 526768 bytes).
 PDF statistics:
  527 PDF objects out of 1000 (max. 8388607)
  401 compressed objects within 5 object streams
