@@ -1,2 +1,48 @@
-# masterthesis
-Embedding optimization with deep neural networks for clustering image-based flow cytometry data
+# Master's Thesis at the Helmholtz AI for Health, München & Ludwig-Maximilians-Universität, München
+
+## Embedding optimization with deep neural networks for clustering image-based flow cytometry data
+
+### Supervisors
+Prof Dr Fabian J Theis & PD Dr Michael Menden
+### Introduction
+In biomedical sciences, understanding the connection between genetic variation and phenotypic diversity is of paramount importance. This relationship forms the foundation for deciphering the principles of cellular function, identifying the causes and markers of diseases, and is crucial for biological engineering and synthetic biology applications. These applications range from library screening for the development of new protein biosensors, transcriptional reporters, synthetic enzymes, RNA devices, genetic circuits, signaling pathways, to multicellular communities. High-throughput screening approaches are highly desirable in these contexts, as they allow for the efficient identification of variants exhibiting the properties of interest from heterogeneous populations of cells.
+
+Methods that physically separate cells based on measurable characteristics have a wide range of uses in both research and clinical applications, including cellular therapies. Techniques such as microfluidics, filters, and centrifugation can identify and physically separate cells from a heterogeneous population according to intrinsic characteristics like size, shape, and deformability. Additionally, cells can be sorted based on signals from extrinsic probes. These techniques, when combined with high-throughput screening approaches, provide a powerful toolset for mapping genotypes to phenotypes, thereby advancing our understanding of genetic variation and its impact on phenotypic diversity. One of the most popular technique in sorting cells based on their characteristics, is Fluorescent Assisted Cell Sorting. FACAS is based on Flow Cytometry.
+
+#### Flowcytometry & Fluorescence Microscopy
+
+Flow cytometry is a technique used to analyze the physical and chemical properties of particles, usually cells as they flow through a laser beam. Flow cytometry uses the light properties scattered from cells or particles for identification or quantitative measurement of physical properties \cite{mckinnon_2018}. Labels, dyes, and stains can be used for multi-parametric analysis including size, shape, and the expression of specific proteins or other cellular components. The principle behind flow cytometry is the use of laser light to excite fluorescently labeled particles, which then emit light at specific wavelengths. The emitted light is collected and quantified using detectors, providing information on the characteristics of each cell or particle. Flow cytometry can sort cells based on their physical or chemical characteristics \cite{mckinnon_2018}. This is useful for isolating specific cell types from a heterogeneous population of cells, or for preparing cells for further analysis.
+
+
+Fluorescence microscopy is a technique that uses fluorescence to generate an image of a sample. It is often used in biology to study the distribution of molecules in cells and tissues. The basic principle of fluorescence microscopy is that when light of a specific wavelength is shone on a fluorophore, the fluorophore absorbs the light and emits light of a longer wavelength. This emitted light is used to generate images of the samples.
+
+#### Image-Enabled Cell Sorter
+Flow cytometry and fluorescence microscopy are commonly used techniques in biological and biomedical research. While flow cytometry allows for the rapid and high-throughput isolation of cells based on low-dimensional parameters, it lacks the subcellular resolution needed to study processes such as protein trafficking, cellular signaling, or protein mislocalization during disease. On the other hand, fluorescence microscopy provides high-resolution imaging of cellular morphology and protein localization, but it is not capable of quickly isolating cells with specific phenotypes. Combining the spatial resolution of fluorescence microscopy with the sorting capabilities of flow cytometry has the potential to revolutionize experimental approaches by enabling the rapid identification and isolation of cells with specific sub-cellular phenotypes.
+
+Daniel Schraivogel et al. presented a system that integrates flow cytometry and microscopy, operates at high speeds suitable for genetic screening and the analysis of short-lived dynamic phenomena, and can be used in non-specialized laboratories. This is referred to as image-enabled cell sorting (ICS). Traditional flow cytometry is able to distinguish between three stages of the cell cycle (G1, G2/mitosis, and S phase), but is unable to differentiate between cells in different stages of mitosis. This was made possible with ICS. Here, we refer to the features maximum intensity, radial movement, eccentricity and other features mentioned in the study by Daniel Schraivogel et al. as the classical image features.
+
+
+#### Complex Embedding is Required for Clustering ICS-Generated Data
+
+Flow cytometry data typically involves gating strategy - a step where a series of gates are defined to identify the population of interest. Manual gating typically involves two-dimensional plots for cell-type marker intensity and uses hierarchical gates to identify cell populations. The method of using 2D plots for analyzing flow cytometry data is sufficient for small experiments. But the problem arises when experiments have more measured parameters. The main issue is that 2D plots do not scale up well. When there are more cell markers, the number of plots needed grows exponentially. For example, an experiment with 18 markers would need 153 different 2D plots to show all combinations. That many plots becomes too complex to comprehend and interpret.
+
+ICS produces high-dimensional single-cell data for which high-dimensional data analysis is needed, contradictory to manual gating in conventional flow cytometry as two-dimensional plots are unable to depict the complex high-dimensional structure of the data generated by the ICS. The image features produced by the ICS, from the images, requires complex embedding on which clustering can be done. In machine learning, embedding refers to the process of representing complex, high-dimensional data in a lower-dimensional space, typically as continuous vectors. This makes it easier for computers to process and learn from data.
+
+
+#### Unsupervised Machine Learning offers An Automated and Unbiased Approach for Cell Population Profiling
+
+Cytometry is a common tool used by researchers for profiling cell populations in biological samples. This data can offer insights into the cellular composition of healthy tissues and also reveal how various cell subsets alter under disease conditions. A variety of machine-learning techniques have been developed to annotate known cell populations and to identify new cell subsets from the high-dimensional data generated by cytometry experiments.
+
+Unsupervised machine learning techniques classify cells into groups based on their similarities, as determined solely by cytometry data, without the need for external information. Several generic unsupervised methods can be directly applied to cytometry data. These include popular clustering methods like K-means and hierarchical clustering, probability-based methods like Gaussian mixture models, and density-based methods like HDBSCAN. Unsupervised methods offer several benefits when it comes to enumerating cell populations in high-dimensional space. They allow for an unbiased approach, which is unachievable with manual gating methods, and facilitate the automation of cell population identification with minimal human intervention.
+
+
+#### Deep Learning-based Embedding for Unsupervised Cell-Type and State Variation Analysis in High-Dimensional Image Data
+In this study, our goal is to develop an embedding that can disentangle complex image features from images that are relevant to cell-type and state variation. This was aimed to be achieved by the application of deep learning to enable biologically meaningful clustering in an unsupervised, unbiased manner in high-dimensional space which can be applied to (multiple) datasets from different experiments.
+
+In addressing the problem at hand, a question arises: do classical image features possess the necessary information to effectively cluster the data into clusters of biological relevance? Should the response be affirmative, the subsequent step involves evaluating the efficiency of the clustering process.
+
+Distance metric learning is a machine learning technique used to learn a distance metric between pairs of data points in a high-dimensional space. The goal of employing distance metric learning in this study is to learn a distance function that accurately reflects the similarity or dissimilarity between the data points, such that similar points are close to each other and dissimilar points are far apart in the learned space. This can be useful for a variety of tasks, such as classification, clustering, and retrieval, where the distance metric plays an important role. Some popular distance metric learning algorithms include large margin nearest neighbor (LMNN), neighborhood component analysis (NCA) and metric learning to rank (MLR). 
+
+If there is not enough information in classical image features to sort classes into clusters of biological relevance, we aimed to proceed to extract complex features from the images, using neural networks leading to clustering based on the latter.
+
+This was targeted to be achieved in two steps. Initially, we utilize pre-trained models in their respective default configurations to evaluate their efficiency in clustering. Next, we identify the top-performing model among those and proceed to fine-tune it by training the same on our data.
