@@ -1,0 +1,31 @@
+\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Background}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Flowcytometry \& Fluorescence Microscopy}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Image-Enabled Cell Sorter}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Complex Embedding is Required for Clustering ICS-Generated Data}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Unsupervised Machine Learning offers An Automated and Unbiased Approach for Cell Population Profiling}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Deep Learning-based Embedding for Unsupervised Cell-Type and State Variation Analysis in High-Dimensional Image Data}{9}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Materials \& Methods}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Data Format for Classical Image features for Data Analysis, Processing}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Pre-trained Models}{12}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}ResNet50}{12}{subsubsection.3.3.1}%
+\contentsline {paragraph}{}{14}{section*.11}%
+\contentsline {subsubsection}{\numberline {3.3.2}scDINO}{15}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}TransPath}{17}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Cluster Purity Evaluates the Performance of Biologically Meaningful Cluster Formation}{18}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Classical image features are inadequate for forming biologically meaningful clusters}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Limited performance of scaling in embedding}{19}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Insufficient Separation of Biologically Meaningful Clusters Using Distance Metric Learning on Classical Image Features}{22}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Pre-trained Deep Learning Models show inferior separation compared to classical image features}{26}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Performance of scDINO Improved After Training}{26}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Discussion}{30}{section.5}%
+\contentsline {section}{\numberline {6}Acknowledgement}{40}{section.6}%
+\contentsline {paragraph}{}{40}{section*.26}%
+\contentsline {paragraph}{}{40}{section*.27}%
+\contentsline {paragraph}{}{40}{section*.28}%
+\contentsline {paragraph}{}{40}{section*.29}%
+\contentsline {paragraph}{}{40}{section*.30}%
+\contentsline {paragraph}{}{41}{section*.31}%

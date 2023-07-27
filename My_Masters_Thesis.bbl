@@ -1,0 +1,161 @@
+\begin{thebibliography}{10}
+
+\bibitem{Pegoraro2017-rs}
+Gianluca Pegoraro and Tom Misteli.
+\newblock High-throughput imaging for the discovery of cellular mechanisms of disease.
+\newblock {\em Trends Genet.}, 33(9):604--615, September 2017.
+
+\bibitem{https://doi.org/10.1002/bit.22833}
+Albert~J. Mach and Dino Di~Carlo.
+\newblock Continuous scalable blood filtration device using inertial microfluidics.
+\newblock {\em Biotechnology and Bioengineering}, 107(2):302--311, 2010.
+
+\bibitem{vandereyken_sifrim_thienpont_voet_2023}
+Katy Vandereyken, Alejandro Sifrim, Bernard Thienpont, and Thierry Voet.
+\newblock Methods and applications for single-cell and spatial multi-omics.
+\newblock {\em Nature Reviews Genetics}, 2023.
+
+\bibitem{liao_makris_luo_2016}
+Xiaofeng Liao, Melissa Makris, and Xin~M. Luo.
+\newblock Fluorescence-activated cell sorting for purification of plasmacytoid dendritic cells from the mouse bone marrow.
+\newblock {\em Journal of Visualized Experiments}, (117), 2016.
+
+\bibitem{mckinnon_2018}
+Katherine~M. Mckinnon.
+\newblock Flow cytometry: An overview.
+\newblock {\em Current Protocols in Immunology}, 120(1), 2018.
+
+\bibitem{aatbioFundamentalsFlow}
+{F}undamentals of {F}low {C}ytometry | {A}{A}{T} {B}ioquest --- aatbio.com.
+\newblock \url{https://www.aatbio.com/resources/assaywise/2019-8-1/fundamentals-of-flow-cytometry}.
+\newblock [Accessed 20-Jul-2023].
+
+\bibitem{sanderson_smith_parker_bootman_2014}
+Michael~J. Sanderson, Ian Smith, Ian Parker, and Martin~D. Bootman.
+\newblock Fluorescence microscopy.
+\newblock {\em Cold Spring Harbor Protocols}, 2014(10):pdb.top071795, 2014.
+
+\bibitem{cossarizza_chang_radbruch_acs_adam_adamklages_agace_aghaeepour_akdis_allez_et_al._2019}
+Andrea Cossarizza, Hyun‐Dong Chang, Andreas Radbruch, Andreas Acs, Dieter Adam, Sabine Adam‐Klages, William~W. Agace, Nima Aghaeepour, Mübeccel Akdis, Matthieu Allez, and et~al.
+\newblock Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition).
+\newblock {\em European Journal of Immunology}, 49(10):1457–1973, 2019.
+
+\bibitem{Espina2006-iv}
+Virginia Espina, Julia~D Wulfkuhle, Valerie~S Calvert, Amy VanMeter, Weidong Zhou, George Coukos, David~H Geho, Emanuel~F Petricoin, 3rd, and Lance~A Liotta.
+\newblock Laser-capture microdissection.
+\newblock {\em Nat. Protoc.}, 1(2):586--603, 2006.
+
+\bibitem{doi:10.1126/science.abj3013}
+Daniel Schraivogel, Terra~M. Kuhn, Benedikt Rauscher, Marta Rodríguez-Martínez, Malte Paulsen, Keegan Owsley, Aaron Middlebrook, Christian Tischer, Beáta Ramasz, Diana Ordoñez-Rueda, Martina Dees, Sara Cuylen-Haering, Eric Diebold, and Lars~M. Steinmetz.
+\newblock High-speed fluorescence image\&\#x2013;enabled cell sorting.
+\newblock {\em Science}, 375(6578):315--320, 2022.
+
+\bibitem{10.3389/fimmu.2021.787574}
+Zicheng Hu, Sanchita Bhattacharya, and Atul~J. Butte.
+\newblock Application of machine learning for cytometry data.
+\newblock {\em Frontiers in Immunology}, 12, 2022.
+
+\bibitem{virshup_rybakov_theis_angerer_wolf_2021}
+Isaac Virshup, Sergei Rybakov, Fabian~J. Theis, Philipp Angerer, and F.~Alexander Wolf.
+\newblock anndata: Annotated data.
+\newblock 2021.
+
+\bibitem{wolf_angerer_theis_2018}
+F.~Alexander Wolf, Philipp Angerer, and Fabian~J. Theis.
+\newblock Scanpy: large-scale single-cell gene expression data analysis.
+\newblock {\em Genome Biology}, 19(1), 2018.
+
+\bibitem{DBLP:journals/corr/HeZRS15}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
+
+\bibitem{Pfaendler2023.01.16.524226}
+Ramon Pfaendler, Jacob Hanimann, Sohyon Lee, and Berend Snijder.
+\newblock Self-supervised vision transformers accurately decode cellular state heterogeneity.
+\newblock {\em bioRxiv}, 2023.
+
+\bibitem{WANG2022102559}
+Xiyue Wang, Sen Yang, Jun Zhang, Minghui Wang, Jing Zhang, Wei Yang, Junzhou Huang, and Xiao Han.
+\newblock Transformer-based unsupervised contrastive learning for histopathological image classification.
+\newblock {\em Medical Image Analysis}, 81:102559, 2022.
+
+\bibitem{ISBN_0521865719}
+Prabhakar~Raghavan Christopher D.~Manning and Hinrich Schütze.
+\newblock {\em Introduction to Information Retrieval}.
+\newblock Cambridge University Press, Cambridge University Press & Assessment Shaftesbury Road Cambridge CB2 8EA, 2008.
+
+\bibitem{pca}
+Andrzej Maćkiewicz and Waldemar Ratajczak.
+\newblock Principal components analysis (pca).
+\newblock {\em Computers & Geosciences}, 19(3):303--342, 1993.
+
+\bibitem{umap}
+Leland McInnes, John Healy, and James Melville.
+\newblock Umap: Uniform manifold approximation and projection for dimension reduction, 2020.
+
+\bibitem{WOS:A1974T155500001}
+A~BRUNSTING and PF~MULLANEY.
+\newblock Differential light-scattering from spherical mammalian-cells.
+\newblock {\em BIOPHYSICAL JOURNAL}, 14(6):439--453, 1974.
+
+\bibitem{benson_mcdougal_coffey_1984}
+Mitchell~C. Benson, Denise~C. Mcdougal, and Donald~S. Coffey.
+\newblock The application of perpendicular and forward light scatter to assess nuclear and cellular morphology.
+\newblock {\em Cytometry}, 5(5):515–522, 1984.
+
+\bibitem{HarrisonPaul}
+Paul Harrison.
+\newblock Harrison, p. j. and j.a. berges. 2005. marine culture media. in: Algal culturing techniques. r. andersen (ed.) academic press, ny, pp. 21-33.
+\newblock 02 2005.
+
+\bibitem{fàbrega_vila_2013}
+Anna Fàbrega and Jordi Vila.
+\newblock Salmonella enterica serovar typhimurium skills to succeed in the host: Virulence and regulation.
+\newblock {\em Clinical Microbiology Reviews}, 26(2):308–341, 2013.
+
+\bibitem{NCA}
+John~Chiotellis William~de Vazelhes.
+\newblock {Neighbourhood Components Analysis}.
+\newblock \url{https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NeighborhoodComponentsAnalysis.html}.
+
+\bibitem{ARI}
+Lawrence Hubert and Phipps Arabie.
+\newblock Comparing partitions.
+\newblock {\em Journal of Classification}, 2(1):193–218, 1985.
+
+\bibitem{NMI}
+M~Meila and A~Jain.
+\newblock Normalized information distance as a measure of cluster similarity.
+\newblock {\em Journal of Machine Learning Research}, 11:2219--2237, 2003.
+
+\bibitem{silhouettecoefficient}
+P~J Rousseeuw et~al.
+\newblock Silhouettes: a graphical aid to the interpretation and validation of cluster analysis.
+\newblock {\em Journal of computational and applied mathematics}, 20(1):53--65, 1987.
+
+\bibitem{koch2015siamese}
+Gregory Koch, Richard~S Zemel, and Ruslan~R Salakhutdinov.
+\newblock Siamese neural networks for one-shot learning.
+\newblock {\em arXiv preprint arXiv:1503.02531}, 2015.
+
+\bibitem{xu2018variational}
+Yufei Xu, Zhuang Liu, and Dong Zhou.
+\newblock Variational bayesian clustering with cluster separation loss.
+\newblock In {\em Proceedings of the 35th International Conference on Machine Learning}, pages 5586--5595. PMLR, 2018.
+
+\bibitem{caron2021emerging}
+Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, and Armand Joulin.
+\newblock Emerging properties in self-supervised vision transformers, 2021.
+
+\bibitem{chen2023dinov2}
+Zihang Chen, Xingyu Wang, Han Zhang, Han Zhang, Guiguang Cui, Hao Sun, Yihuan Yang, Xiangyu Zhang, and Yang Lu.
+\newblock Dinov2: Learning robust visual features without supervision.
+\newblock {\em arXiv preprint arXiv:2304.01021}, 2023.
+
+\bibitem{bengio2009curriculum}
+Yoshua Bengio, J~Louradour, R~Collobert, and J~Weston.
+\newblock Curriculum learning.
+\newblock In {\em Proceedings of the 26th Annual International Conference on Machine Learning}, pages 113--120, 2009.
+
+\end{thebibliography}
