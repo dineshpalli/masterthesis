@@ -1,5 +1,6 @@
 \documentclass[12pt,a4paper]{article}
 
+\usepackage{setspace}
 \usepackage[]{graphicx}
 \usepackage{svg}
 \usepackage[]{color}
@@ -47,7 +48,7 @@ bindingoffset = 0mm]{geometry}
 % ------------------------------------------------------------------------------
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
-
+\onehalfspacing
 % FRONT PAGE -------------------------------------------------------------------
  
 \begin{titlepage}
@@ -81,7 +82,7 @@ Munich, July 31\textsuperscript{st}, 2023
       
 \vfill
 
-\includegraphics[width = 0.4\textwidth]{Figures/sigillum.png}
+\includegraphics[width = 0.4\textwidth]{DineshPalliMasterThesis/Figures/sigillum.png}
 
 
 \vfill
@@ -123,13 +124,14 @@ Supervised by \mysupervisor{} \& \myinternalsupervisor
 \input{chapters/Abstract}
 
 Advances in cell-sorting enable collection of high-dimensional images capturing cell morphological diversity. However analyzing these datasets to identify distinct cell phenotypes poses challenges. This study evaluates machine learning techniques for unsupervised clustering of cell images based on biologically-relevant traits without manual gating. We assess if classical image features contain sufficient information to separate cell types and states on Salmonella, phytoplankton and cell cycle datasets. While providing preliminary separations, hand-engineered features lack complexity to capture nuanced morphological patterns denoting phenotypic variations. We check pretrained deep convolutional networks, evaluating the performance of the same. However, by training vision transformers end-to-end on datasets, we demonstrate deep learning's potential to learn specialized features when optimized on relevant data. We are optimistic that with rigorous tuning, deep neural networks can uncover new biology from high-dimensional imaging datasets in an automated manner.
-    
+
+\newpage
 \section{Introduction}
 \label{intro}
 \input{chapters/introduction}
 \subsection{Background}
 
-In biomedical sciences, understanding the connection between genetic variation and phenotypic diversity is of paramount importance. This relationship forms the foundation for deciphering the principles of cellular function, identifying the causes and markers of diseases, and is crucial for biological engineering and synthetic biology applications. These applications range from library screening for the development of new protein biosensors, transcriptional reporters, synthetic enzymes, RNA devices, genetic circuits, signaling pathways, to multicellular communities. High-throughput screening approaches are highly desirable in these contexts, as they allow for the efficient identification of variants exhibiting the properties of interest from heterogeneous populations of cells \cite{Pegoraro2017-rs}.
+In biomedical sciences, understanding the connection between genetic variation and phenotypic diversity is of paramount importance. This relationship forms the foundation for deciphering the principles of cellular function, identifying the causes and markers of diseases, and is crucial for biological engineering and synthetic biology applications. These applications range from library screening for the development of new protein biosensors, transcriptional reporters, synthetic enzymes, RNA devices, genetic circuits, signaling pathways, to multicellular communities. High-throughput screening approaches are highly desirable in these contexts, as they allow for the efficient identification of variants exhibiting the properties of interest from heterogene       ous populations of cells \cite{Pegoraro2017-rs}.
 
 Methods that physically separate cells based on measurable characteristics have a wide range of uses in both research and clinical applications, including cellular therapies. Techniques such as microfluidics, filters, and centrifugation can identify and physically separate cells from a heterogeneous population according to intrinsic characteristics like size, shape, and deformability \cite{https://doi.org/10.1002/bit.22833}. Additionally, cells can be sorted based on signals from extrinsic probes. These techniques, when combined with high-throughput screening approaches, provide a powerful toolset for mapping genotypes to phenotypes, thereby advancing our understanding of genetic variation and its impact on phenotypic diversity \cite{vandereyken_sifrim_thienpont_voet_2023}. One of the most popular technique in sorting cells based on their characteristics, is Fluorescent Assisted Cell Sorting. FACAS is based on Flow Cytometry \cite{liao_makris_luo_2016}.
 
@@ -139,7 +141,7 @@ Flow cytometry is a technique used to analyze the physical and chemical properti
 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{Figures/flow-cytometer.png}
+  \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/flow-cytometer.png}
   \caption{Diagrammatic representation of a typical flow cytometer. The figure illustrates the integration of the fluidic, optical, and electronic systems within the cytometer. The fluidic system guides the sample particles in a stream, the optical system illuminates the sample and collects the emitted light, and the electronic system converts the collected light into digital data for further analysis. \cite{aatbioFundamentalsFlow}}
   \label{flowcytometry}
 \end{figure}
@@ -148,7 +150,7 @@ Fluorescence microscopy is a technique that uses fluorescence to generate an ima
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.3\textwidth]{Figures/454px-Fluorescence_Microscopy_01.png}
+  \includegraphics[width=0.3\textwidth]{DineshPalliMasterThesis/Figures/454px-Fluorescence_Microscopy_01.png}
   \caption{A fluorescence microscope uses a light source to excite fluorescent molecules in a sample. The emitted light is then filtered and focused to create an image. The image shows a diagram of a fluorescence microscope. The light source is a mercury lamp, which emits a broad spectrum of light. The excitation filter only allows light of a certain wavelength to pass through. The dichroic mirror reflects the excitation light away and allows the fluorescent light to pass through. The emission filter only allows light of a certain wavelength to pass through. The objective lens focuses the fluorescent light onto the detector, which converts it into an image. \cite{File:Fluorescence Microscopy 01.png - Biology Wiki}}
   \label{fluorescencemicroscopy}
 \end{figure}
@@ -162,7 +164,7 @@ Daniel Schraivogel et al. presented a system that integrates flow cytometry and 
 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{Figures/ICS_working.png}
+  \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/ICS_working.png}
   \caption{Schematic representation of the ICS optical and flow hardware components, showing the excitation and emission beam paths. The excitation beam path utilizes acousto-optic deflectors (AOD) to split a single laser beam into an array of beamlets with different optical frequencies and angles. Another AOD adjusts the optical frequency of a reference beam, which overlaps with the beamlet array. These overlapping beams intersect the flow cell (FC) of a cuvette sorter. The emission beam path involves generating images from digitized signals, including light loss, forward scatter (FSC), side scatter (SSC), and four fluorescent channels. Example images demonstrate the labeling of HeLa cells expressing GalNAcT2-green fluorescent protein (GFP) with CD147 PE-CF594 and DRAQ5 nuclear dye. Grayscale images display FSC, SSC, and light loss. The components used include beam splitter (BS), mirror (M), objective (Obj), deflection plates (DP), obscuration bar (OB), pinhole (P), lens (L), band pass (BP), photomultiplier tube (PMT), and photodiode (PD). Scale bar: 20 mm \cite{doi:10.1126/science.abj3013}.}
   \label{icsworking}
 \end{figure}
@@ -176,7 +178,7 @@ ICS produces high-dimensional single-cell data for which high-dimensional data a
 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{Figures/DataProcessingPipelineICS.png}
+  \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/DataProcessingPipelineICS.png}
   \caption{Overview of the ICS low-latency data-processing pipeline, highlighting the steps involved. Photodetectors generate pulses with high-frequency modulations that encode the image waveform. Fourier analysis is employed to reconstruct the image from the modulated pulse. An image-processing pipeline extracts image features, while a pulse-processing pipeline derives additional features from the pulse. Real-time sort classification electronics utilize these features to classify particles and make sort decisions. The resulting sort decision is used to selectively charge the droplets, as indicated by the dotted gray line in panel A \cite{doi:10.1126/science.abj3013}.}
   \label{icsdataprocessing}
 \end{figure}
@@ -184,7 +186,7 @@ ICS produces high-dimensional single-cell data for which high-dimensional data a
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\textwidth]{Figures/ImagingICS.png}
+  \includegraphics[width=0.5\textwidth]{DineshPalliMasterThesis/Figures/ImagingICS.png}
   \caption{ICS-based imaging of HeLa cells expressing fluorescent proteins or stained with specific dyes to target various organelles. Representative images of each organelle are displayed, while the complete datasets comprising 10,000 images each can be accessed as detailed in the data and materials availability section. The following dyes or protein fusions were utilized: cell membrane (Cellmask dye), cytoplasm (GFP fused to HIV Rev nuclear export sequence), mitochondria (Mitotracker dye), nucleus (H2B-mNG), Golgi apparatus (GalNAcT2-GFP), endoplasmic reticulum (ER, ERtracker dye), nucleolus (eGFP-Ki-67), nuclear envelope (LamB1-GFP), P bodies (eGFP-DDX6), Cajal bodies (eGFP-COIL), and centrosomes (anti-pericentrin antibody). P bodies and Cajal bodies were observed in fixed cells, while centrosomes were imaged in fixed and metaphase-stalled cells, resulting in reduced contrast in the light loss (LL) image. Scale bar, 20 mm \cite{doi:10.1126/science.abj3013}.}
   \label{icsimaging}
 \end{figure}
@@ -207,6 +209,7 @@ If there is not enough information in classical image features to sort classes i
 
 This was targeted to be achieved in two steps. Initially, we utilize pre-trained models in their respective default configurations to evaluate their efficiency in clustering. Next, we identify the top-performing model among those and proceed to fine-tune it by training the same on our data.
 
+\newpage
 \section{Materials \& Methods}
 \subsection{Data}
 There are three datasets viz. \textit{Salmonella} dataset, Phytoplankton strains dataset and Cell-Cycle dataset. The \textit{Salmonella} dataset contains the images of macrophages infested with \textit{Salmonella}. The idea was to find out what makes the difference between a cell that does not allow bacteria to multiply (n = 1 bacteria per cell), compared to a cell that allows bacteria to multiply (cells with n \> 1 bacteria per cell). Cells are classified on the basis of \textit{Salmonella}(e) present in the cells - One, two and many. The classified images in the \textit{Salmonella} dataset were 655. In phytoplankton dataset, the labelled images were 4304 classified based on the strains. In cell cycle dataset, the annotated images were 17774 based on different mitotic cell cycle stages. Imaging data from the FACSVulcan (ICS) comes in two forms - as numerical values which are included in the exported flow cytometry standard (FCS) file and the actual cell images which are exported as a Z stack of tag image file format (TIFF). Each imaging parameter has 8 numerical values associated with it which correspond to 8 individual TIFFs in the Z stack.
@@ -215,7 +218,7 @@ The images are of dimensions - 8 channels (Z-stack), 104 pixels in width, and ha
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\textwidth]{Figures/sample_img_phytoplankton_cellcycle.png}
+  \includegraphics[width=0.5\textwidth]{DineshPalliMasterThesis/Figures/sample_img_phytoplankton_cellcycle.png}
   \caption{Random images from the Plankton and Cell Cycle datasets, respectively (Top to Bottom), are displayed in this figure. The image width is fixed at 104 pixels, while the height varies across the images.}
   \label{sampleimgs}
 \end{figure}
@@ -228,7 +231,7 @@ Anndata is a data format and a python package for handling annotated data matric
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{Figures/anndata_schema.png}
+  \includegraphics[width=0.7\textwidth]{DineshPalliMasterThesis/Figures/anndata_schema.png}
   \caption{AnnData schema, a data structure used in single-cell genomics, combines a data matrix X with annotations of observations (obs), variables (var), and unstructured annotations (uns). The obs component contains information about individual cells or samples, while the var component stores details about variables, typically genes. Additionally, the obsm and varm components can accommodate multi-dimensional observations or variables, respectively. The obsp and varp components allow for the storage of pairwise observations or variables, such as distances or correlations. The uns component provides a flexible container for any additional annotations or metadata. Together, these components within the AnnData format provide a comprehensive and standardized framework for organizing and analyzing single-cell data.}
   \label{adata}
 \end{figure}
@@ -263,7 +266,7 @@ Single Cell Distillation of knowledge with No labels is the application of DINO 
 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{Figures/scDINO_working.png}
+  \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/scDINO_working.png}
   \caption{Workflow for single-cell phenotyping using DINO-based self-supervised vision transformers (ss-ViTs). The upper part illustrates the DINO-based self-supervised learning approach, which includes a student and teacher ViT. The lower part showcases the ViT-based image embedding and feature representations, with emphasis on the CLS token, utilized for single-cell clustering \cite{Pfaendler2023.01.16.524226}.}
   \label{scdinoworking}
 \end{figure}
@@ -301,8 +304,8 @@ In this formula:
 \item \(N\) represents the total number of instances or samples.
 \item \(q_i\) and \(k_i\) are the query and key embeddings, respectively, for instance \(i\).
 \item \(\tau\) denotes the temperature hyperparameter that controls the similarity scaling.
-% \(\text{CELoss}(q, y)\) refers to the cross-entropy loss between the predicted logits \(q\) and the true labels \(y\).
-\item \(\text{CELoss}(q, y)\) refers to the cross-entropy loss between the predicted logits \(q\) and the true labels \(y\).
+\(\text{CELoss}(q, y)\) refers to the cross-entropy loss between the predicted logits \(q\) and the true labels \(y\).
+% \item \(\text{CELoss}(q, y)\) refers to the cross-entropy loss between the predicted logits \(q\) and the true labels \(y\).
 \item \(\lambda\) represents the weighting factor for the cross-entropy loss.
 \end{itemize}
 
@@ -327,6 +330,8 @@ In our case, to calculate Purity, the following steps are followed. Firstly, a c
 
 Next, for each cluster, the maximum value in its corresponding row of the confusion matrix is selected. These maximum values represent the highest number of correct classifications achieved within each cluster. Finally, these maximum values are summed together, and the resulting sum is divided by the total number of data points.
 
+
+\newpage
 \section{Results}
 \subsection{Classical image features are inadequate for forming biologically meaningful clusters}
 Across the two datasets - \textit{Salmonella} and Phytoplankton, the classical images features were extracted and plotted in histograms. After the pre-processing of data by normalization and scaling, PCA (principle component analysis, used for dimensionality reduction to simplify datasets with large number of variables) was performed using scanpy functions \ref{adata_scanpy}, \cite{pca}. Then, UMAP (Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique that is often used in the field of machine learning and data science \cite{umap}. UMAP is used to reduce the dimensionality of data, but it does so in a way that preserves much more of the data's structure \cite{umap}, particularly the relationships between points) was performed using ScanPy functions \ref{adata_scanpy}.
@@ -334,19 +339,19 @@ Across the two datasets - \textit{Salmonella} and Phytoplankton, the classical i
 \begin{figure}
   \centering
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/salmonella_clusters_before_DML.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/salmonella_clusters_before_DML.png}
     \caption{Leiden clustering of Salmonella data. This visualization represents the distinct clusters identified in the Salmonella dataset following the pre-processing stage.}
     \label{multifig1:image_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width =\linewidth]{Figures/plankton_clusters_before_DML.png}
+    \includegraphics[width =\linewidth]{DineshPalliMasterThesis/Figures/plankton_clusters_before_DML.png}
     \caption{Leiden clustering of Plankton data. This diagram illustrates the various clusters discerned in the Plankton dataset after the pre-processing phase.}
     \label{multifig1:image_b}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/cellcycle_clusters_before_DML.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/cellcycle_clusters_before_DML.png}
     \caption{Leiden clustering of Cell Cycle data. This image depicts the unique clusters found in the Cell Cycle dataset post the pre-processing step.}
     \label{multifig1:image_c}
   \end{subfigure}
@@ -364,7 +369,7 @@ However, upon the scaling and transformation of the feature space, a clear demar
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\textwidth]{Figures/phytoplanktonclusterseparationafterscaling.png}
+  \includegraphics[width=0.45\textwidth]{DineshPalliMasterThesis/Figures/phytoplanktonclusterseparationafterscaling.png}
   \caption{The image illustrates the distinct separation of phytoplankton strain clusters 269, 1164, 1333, 3015, 3541, a result of the applied scaling procedure. This clear demarcation contrasts with the initial state where these clusters were not clearly separated, as depicted in \ref{multifig1:image_b}. The scaling procedure has thus significantly enhanced the clarity and differentiation of these phytoplankton strain clusters.}
   \label{clustersafterscaling}
 \end{figure}
@@ -372,13 +377,13 @@ However, upon the scaling and transformation of the feature space, a clear demar
 \begin{figure}
   \centering
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/maxintensitymembranestain_fitc_scaledandunscaled_planktondata.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/maxintensitymembranestain_fitc_scaledandunscaled_planktondata.png}
     \caption{Histogram comparing the distribution of the maximum intensity of membrane stain FITC in two different subsets of data.}
     \label{multifig2:image_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.4\linewidth}
-    \includegraphics[width=\linewidth]{Figures/fitc-h_scaledandunscaled_planktondata.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/fitc-h_scaledandunscaled_planktondata.png}
     \caption{Histogram that compares the intensity of the stain FITC-H in two different data.}
     \label{multifig2:image_b}
   \end{subfigure}
@@ -391,13 +396,13 @@ Despite the transformation of feature space, some clusters could not be clearly 
 \begin{figure}
   \centering
   \begin{subfigure}{0.5\linewidth}
-    \includegraphics[width=\linewidth]{Figures/clustersmixedafterscalingsalmonella.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/clustersmixedafterscalingsalmonella.png}
     \caption{Depicts the \textit{Salmonella} clusters one and two, demonstrating their lack of clear separation despite undergoing scaling and transformation.}
     \label{multifig3:image_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.5\linewidth}
-    \includegraphics[width=\linewidth]{Figures/clustersmixedafterscalingplankton.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/clustersmixedafterscalingplankton.png}
     \caption{Illustrates the plankton clusters of strains 1512, 3003, and 4281, emphasizing their continued overlap even after scaling and transformation.}
     \label{multifig3:image_b}
   \end{subfigure}
@@ -412,7 +417,7 @@ To ascertain the feature space that facilitates the formation (and separation) o
 
 \textbf{NCA:} Through supervised learning, it learns a linear transformation with the aim of boosting the precision of a stochastic nearest neighbors rule within the transformed space.
 
-\textbf{LMNN:} acquires a Mahalanobis distance metric within the context of kNN classification. The metric it learns tries to maintain proximity among k-nearest neighbors belonging to the same class, while ensuring a large margin instances from different classes. Importantly, this algorithm operates without making presumptions about the distribution of the data.
+\textbf{LMNN:} acquires a Mahalanobis distance metric within the context of k-nearest neighbors (KNN) classification. The metric it learns tries to maintain proximity among k-nearest neighbors belonging to the same class, while ensuring a large margin instances from different classes. Importantly, this algorithm operates without making presumptions about the distribution of the data.
 
 \textbf{MLKR:} This function learns distance function by minimizing the leave-one-out regression error. This can also be used for dimensionality reduction and high dimensional data visualization.
 
@@ -432,7 +437,7 @@ Out of the aforementioned distance metric learning algorithms, NCA was the best-
 \hline
 \textbf{Distance Metric} & \textbf{Salmonella} & \textbf{Phytoplankton} & \textbf{Cell Cycle} \\
 \hline
-No\_DistanceMetricLearning & 0.568433 & 0.673014 & 0.852585 \\
+No Distance Metric Learning & 0.568433 & 0.673014 & 0.852585 \\
 NCA & 0.72579 & 0.76682 & 0.99339 \\
 LMNN & 0.63115 & 0.67778 & 0.99325 \\
 MLKR & 0.69221 & 0.76703 & 0.99182 \\
@@ -440,6 +445,7 @@ LFDA & 0.56843 & 0.72847 & 0.87293 \\
 \hline
 \end{tabular}
 \end{table}
+
 
 % \begin{table}[h]
 % \centering
@@ -464,25 +470,67 @@ The cluster purity increased noticably. Some clusters couldn't be separated desp
 \begin{figure}
   \centering
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/salmonellaclustering_afternca.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/salmonellaclustering_afternca.png}
     \caption{Leiden clustering of \textit{Salmonella} data after the application of distance metric learning algorithm NCA.}
     \label{multifig4:image_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/planktonclustering_afternca.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/planktonclustering_afternca.png}
     \caption{Leiden clustering of plankton data post application of distance metric learning algorithm NCA. This diagram illustrates the various clusters not clearly discerned.}
     \label{multifig4:image_b}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/cellcycleclustering_afternca.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/cellcycleclustering_afternca.png}
     \caption{Leiden clustering of Cell Cycle data following the distance metric learning algorithm NCA application.}
     \label{multifig4:image_c}
   \end{subfigure}
-  \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA application.}
+  \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA.}
   \label{multifig4:DML_Clusters}
 \end{figure}
+
+
+To assess the performance of metric learning on a merged dataset, we combined three individual datasets and conducted evaluations using cluster purity. However, the cluster purity decreased when compared to the application of Deep Metric Learning (DML) on each dataset separately. This observation is clearly depicted in \ref{multifig5:mergeddataset_clusters, tab:DMLonmergeddataset}.
+
+
+\begin{figure}
+  \centering
+  \begin{subfigure}{\linewidth}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/mergeddataset_salmonella.png}
+    \caption{Leiden clustering of \textit{Salmonella} data from the merged dataset after the application of distance metric learning algorithm NCA.}
+    \label{multifig5:image_a}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{\linewidth}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/mergeddataset_plankton.png}
+    \caption{Leiden clustering of plankton data from the merged dataset post application of distance metric learning algorithm NCA. This diagram illustrates the various clusters not clearly discerned.}
+    \label{multifig5:image_b}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{\linewidth}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/mergeddataset_cellcycle.png}
+    \caption{Leiden clustering of Cell Cycle data from the merged dataset following the distance metric learning algorithm NCA application.}
+    \label{multifig5:image_c}
+  \end{subfigure}
+  \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA on the merged dataset.}
+  \label{multifig5:mergeddataset_clusters}
+\end{figure}
+
+
+\begin{table}[h]
+\small
+\centering
+\caption{Performance of distance metric learning algorithm NCA across dataset formed by merging the three individual datasets. The performance was measured using the cluster purity metric mentioned in \ref{cp}.}
+\label{tab:DMLonmergeddataset}
+\begin{tabular}{lccc}
+\hline
+\textbf{Distance Metric} & \textbf{Salmonella} & \textbf{Phytoplankton} & \textbf{Cell Cycle} \\
+\hline
+NCA & 0.65196 & 0.79570 & 0.93944 \\
+\hline
+\end{tabular}
+\end{table}
 
 
 Due to the same, it can be noticed that the information in / from the classical image features is not enough to form clusters of biological relevance.
@@ -514,24 +562,24 @@ TransPath & 0.53083 & 0.53133 & 0.60485 & 0.63519 & 0.65229 & 0.71893 \\
 \begin{figure}
   \centering
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/outoftheboxscDINOpostNCA_salmonella.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_salmonella.png}
     \caption{Leiden clustering of \textit{Salmonella} data after the extraction of complex features from images using pre-trained network - scDINO and post NCA.}
-    \label{multifig5:image_a}
+    \label{multifig6:image_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/outoftheboxscDINOpostNCA_plankton.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_plankton.png}
     \caption{Leiden clustering of plankton data post extraction of complex features from images using pre-trained network - scDINO and post NCA.}
-    \label{multifig5:image_b}
+    \label{multifig6:image_b}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/outoftheboxscDINOpostNCA_cellcycle.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_cellcycle.png}
     \caption{Leiden clustering of Cell Cycle data following the extraction of complex features from images using pre-trained network - scDINO, followed by NCA.}
-    \label{multifig5:image_c}
+    \label{multifig6:image_c}
   \end{subfigure}
   \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA application.}
-  \label{multifig5:Outoftheboxclusters}
+  \label{multifig6:Outoftheboxclusters}
 \end{figure}
 
 %-----------
@@ -544,24 +592,24 @@ The inferior performance of pre-trained deep learning models compared to classic
 \begin{figure}
   \centering
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/scDINOaftertrainingafterNCA_salmonella.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_salmonella.png}
     \caption{Leiden clustering of \textit{Salmonella} data after the extraction of complex features from images after training scDINO on the \textit{Salmonella} dataset and post NCA.}
-    \label{multifig6:image_a}
+    \label{multifig7:image_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}{\linewidth}
-    \includegraphics[width=\linewidth]{Figures/scDINOaftertrainingafterNCA_plankton.png}
+    \includegraphics[width=\linewidth]{DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_plankton.png}
     \caption{Leiden clustering of plankton data post the extraction of complex features from images after training scDINO on the plankton dataset, followed by NCA.}
-    \label{multifig6:image_b}
+    \label{multifig7:image_b}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.3\linewidth}
     \includegraphics[width=0.3\linewidth]{DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_cellcycle.png}
     \caption{Leiden clustering of Cell Cycle data following the extraction of complex features from images after training scDINO on the cellcycle dataset and post NCA.}
-    \label{multifig6:image_c}
+    \label{multifig7:image_c}
   \end{subfigure}
   \caption{Each figure represents data clustering, post training and post application of distance metric learning algorithm - NCA application.}
-  \label{multifig6:ClustersaftertrainingscDINO}
+  \label{multifig7:ClustersaftertrainingscDINO}
 \end{figure}
 
 
@@ -575,7 +623,7 @@ The inferior performance of pre-trained deep learning models compared to classic
 \cline{2-7}
  & \textbf{Before NCA} & \textbf{After NCA} & \textbf{Before NCA} & \textbf{After NCA} & \textbf{Before NCA} & \textbf{After NCA} \\ 
 \hline
-\textbf{ScDINO} & 0.46939 & 0.62408 & 0.61468 & 0.67523 & & & & \\
+\textbf{ScDINO} & 0.46939 & 0.62408 & 0.61468 & 0.67523 & & & \\
 \hline
 \end{tabular}
 \label{tab:aftertrainingperformanceofscDINO}
@@ -584,15 +632,16 @@ The inferior performance of pre-trained deep learning models compared to classic
 \par\hspace{2cm} 
 \newpage
 
+\newpage
 \section{Discussion}
 \label{Discussion}
 \input{chapters/discussion}
 
 Advances in microscopy and imaging technologies have enabled the collection of high-dimensional data across diverse biological contexts. However, making full use of these rich datasets poses challenges for traditional analysis approaches. As image volumes grow, manual analysis becomes infeasible, requiring more automated computational solutions to identify relevant features and patterns. In this regard, deep learning has shown immense promise for bioimage analysis, demonstrating high performance on tasks like segmentation, classification, and clustering. By learning complex feature representations directly from pixel data, neural networks can capture subtle morphologies and textures in cell images that are valuable for understanding variations in cell type and state. In this study, we aimed to develop a deep learning-based embedding that can disentangle complex image features relevant to cell-type and state variation from high-dimensional ICS data. Our goal was to enable biologically meaningful clustering of single cells in an unsupervised, unbiased manner, which could be applied across diverse datasets from multiple experiments. We evaluated whether classical image features contain enough information for effective clustering, or if more complex embeddings learned via deep neural networks on images are required. We tested dimensionality reduction and clustering methods on classical features, applied distance metric learning to transform the feature space, and analyzed pre-trained deep learning models for their embedding performance. We also trained the deep learning networks on our data, to evaluate their performance.
 
-The results presented indicate that relying solely on classical image features is insufficient for forming biologically meaningful clusters across the diverse datasets - \textit{Salmonella}, phytoplankton, and cell cycle images. While these features provide a preliminary separation between some states, they lack the complexity and discriminative power to finely differentiate between subtle phenotypic differences that denote variations in cell type or condition. This can be seen in \cite{multifigure3:overall_figure}. Some reasons why this occurred might be capacity of hand-engineered features to not capture the intricate textural, shape, and morphological characteristics that distinguish cell phenotypes of the cells. Moreover, the classical image features are designed generically and not specific to the individual datasets. But the cluster purity of the cell cycle data was higher than other datasets. Light scattering profiles have been closely correlated to the nuclear morphology and changes during cell cycle \cite{WOS:A1974T155500001, benson_mcdougal_coffey_1984}. Nuances in the staining patterns, spatial protein distributions, and textural motifs within cells, which are specific to dataset (cells and their morphology) are unlikely to be encoded by classical features.
+The results presented indicate that relying solely on classical image features is insufficient for forming biologically meaningful clusters across the diverse datasets - \textit{Salmonella}, phytoplankton, and cell cycle images. While these features provide a preliminary separation between some states, they lack the complexity and discriminative power to finely differentiate between subtle phenotypic differences that denote variations in cell type or condition. This can be seen in \ref{multifig3:overall_figure}. Some reasons why this occurred might be capacity of hand-engineered features to not capture the intricate textural, shape, and morphological characteristics that distinguish cell phenotypes of the cells. Moreover, the classical image features are designed generically and not specific to the individual datasets. But the cluster purity of the cell cycle data was higher than other datasets. Light scattering profiles have been closely correlated to the nuclear morphology and changes during cell cycle \cite{WOS:A1974T155500001, benson_mcdougal_coffey_1984}. Nuances in the staining patterns, spatial protein distributions, and textural motifs within cells, which are specific to dataset (cells and their morphology) are unlikely to be encoded by classical features.
 
-The histograms comparing feature distributions before and after scaling (Figures 3 and 4) demonstrate that scaling can help amplify the differences between clusters to some extent. This scaling has proved that the clusters can be separated, in the case of som phytoplankton strains. However, this amplification is modest, and several strains still exhibit significant overlap even after scaling. For instance, in the phytoplankton data, strains 1512, 3003 and 4281 remain blended together post-scaling. Similarly, the\textit{Salmonella} clusters denoting one vs two bacteria per cell show little separation following scaling. But for inseparable clusters, the differences may be more subtle and not well captured by the classical features even after scaling. In relation to the plankton biology, the composition of the culture medium is another critical factor to consider when isolating phytoplankton strains. Despite the potential effects that different media may have on the success of phytoplankton isolation and growth, few studies have systematically evaluated the impacts of various media formulations. Harrison and Berges (2005) quoted McLachlan (1973): 'Numerous enriched and synthetic media have been formulated, which together with generally trivial modifications, almost equal the number of investigators' \cite{HarrisonPaul}. Cells infected with \textit{Salmonella} have one, two or more \textit{Salmonella} inside. Cells with more \textit{Salmonella} show high intensity than the cells with one or two \textit{Salmonella} inside them. When the \textit{Salmonella} is multiplying inside the cell, there is change in the pixel area over time, which is useful for the clustering, but the size of \textit{Salmonella} is relatively small in comparison to the cell and the ICS captures the features of the entire cell \cite{fàbrega_vila_2013}. As the \textit{Salmonella} multiply the intensity of the fluorescence increase in the cell, and this can also be noticed as the cluster with more \textit{Salmonella} is relatively more isolated from clusters with one and two \textit{Salmonellae} inside them \ref{multifig1:image_a}. In the case of cells with one or two \textit{Salmonellae}, during the bacterial reproduction, the fluorescent signals might be close to each other during separation. This can result in an elongated spot of fluorescence, rather than two different spots resulted from completion of multiplication of the bacterium. Capturing more details by the ICS, in the case of \textit{Salmonella} data, including the non-biologically relevant data, from the cells encapsulating the bacteria, which makes it difficult to infer the biologically relevant features. This can also be noticed from the complex features extracted from the images.
+The histograms comparing feature distributions before and after scaling (\ref{multifig1:overall_figure} and \ref{clustersafterscaling}) demonstrate that scaling can help amplify the differences between clusters to some extent. This scaling has proved that the clusters can be separated, in the case of som phytoplankton strains. However, this amplification is modest, and several strains still exhibit significant overlap even after scaling. For instance, in the phytoplankton data, strains 1512, 3003 and 4281 remain blended together post-scaling. Similarly, the \textit{Salmonella} clusters denoting one vs two bacteria per cell show little separation following scaling. But for inseparable clusters, the differences may be more subtle and not well captured by the classical features even after scaling. In relation to the plankton biology, the composition of the culture medium is another critical factor to consider when isolating phytoplankton strains. Despite the potential effects that different media may have on the success of phytoplankton isolation and growth, few studies have systematically evaluated the impacts of various media formulations. Harrison and Berges (2005) quoted McLachlan (1973): "Numerous enriched and synthetic media have been formulated, which together with generally trivial modifications, almost equal the number of investigators" \cite{HarrisonPaul}. Cells infected with \textit{Salmonella} have one, two or more \textit{Salmonella} inside. Cells with more \textit{Salmonella} show high intensity than the cells with one or two \textit{Salmonella} inside them. When the \textit{Salmonella} is multiplying inside the cell, there is change in the pixel area over time, which is useful for the clustering, but the size of \textit{Salmonella} is relatively small in comparison to the cell and the ICS captures the features of the entire cell \cite{fàbrega_vila_2013}. As the \textit{Salmonella} multiply the intensity of the fluorescence increase in the cell, and this can also be noticed as the cluster with more \textit{Salmonella} is relatively more isolated from clusters with one and two \textit{Salmonellae} inside them \ref{multifig1:image_a}. In the case of cells with one or two \textit{Salmonellae}, during the bacterial reproduction, the fluorescent signals might be close to each other during separation. This can result in an elongated spot of fluorescence, rather than two different spots resulted from completion of multiplication of the bacterium. Capturing more details by the ICS, in the case of \textit{Salmonella} data, including the non-biologically relevant data, from the cells encapsulating the bacteria, which makes it difficult to infer the biologically relevant features. This can also be noticed from the complex features extracted from the images.
 
 This implies that while scaling transforms the range of feature values to highlight differences, the features themselves do not fully encapsulate the intrinsic characteristics that demarcate distinct cell types in this data. More complex features are needed to delineate boundaries between biologically meaningful groups.
 
@@ -601,13 +650,13 @@ Applying dimensionality reduction techniques like PCA and UMAP visualization dir
 Using distance metric learning algorithms like NCA on the features improves purity (cluster accuracy) to some degree but still does not lead to a complete separation of relevant biological groups (Table 1, Figure 5). Some cell type clusters remain mixed, like those seen earlier. There are two reasons that might have caused this, one, the cell cycle consists of fixed progression of stages that cells pass through sequentially. Each stage has distinct phenotype that is reflected in the cells. But the transitions between adjacent phases are gradual. Cells entering a new phase retain remnants of the prior one.
 This means proximate cell cycle stages are intrinsically more similar than distant stages. Distance Metric Learning (DML) can take advantage of this inherent structure by pulling closer points near each other in the progression while pushing apart distant phases. Essentially, DML is able to embed information about the sequential ordering of the cycle into the transformed feature space. DML techniques like NCA learn linear transformations of the feature space \cite{NCA}. The phenotypic differences across cell cycle phases follow observable patterns in size, shape etc. These morphological changes can likely be captured through linear feature transformations. But for the \textit{Salmonella} and phytoplankton data, discriminative patterns are likely more complex and non-linear. In case of \textit{Salmonella}, the bacteria might be small and the differences subtle to capture biologically relevant information. The physiology of the plankton changes from strain to strain and some strains could possibly be similar to each other with subtle feature differences. Simple linear transformations are insufficient to disentangle these complex feature relationships. Datasets with gradual, ambiguous differences require learning highly non-linear mappings from features to phenotypes. These datasets (salmonella and plankton), because of their variations demand complex non-linear feature dependencies that linear DML cannot represent. In contrast, the more structured cell cycle changes are amenable to linear separations, explaining DML's success. This orderly alignment and natural similarities between adjoining phases likely explains why DML was effective for cell cycle separation. NCA performed better than other DML algorithms, because as a probabilistic model, it is less prone to overfitting compared to margin-based techniques like LMNN, especially with limited training data. NCA is designed to optimize leave-one-out classification accuracy directly, whereas other methods optimize different proxy objectives like relative distances or margins between classes. This may have made NCA better suited for our classification-focused goal.
 
-The dataset formed by merging the three datasets, did not perform any better and it is justified as there are many features to learn from and some of the features from different datasets are overlapping and might conflict with each other which hinders the formation of biologically relevant clusters \ref{<Reference>}.
+The dataset formed by merging the three datasets, did not perform any better and it is justified as there are many features to learn from and some of the features from different datasets are overlapping and might conflict with each other which hinders the formation of biologically relevant clusters \ref{multifig5:mergeddataset_clusters} and \ref{tab:DMLonmergeddataset}.
 
 The inferior performance of pre-trained deep learning models compared to classical features (\ref{tab:performanceofdl}) implies these generic networks have not learned feature representations tailored to this specific phenotypic clustering task when used out-of-the-box. Their internal representations may not fully disentangle the properties critical for phenotype-based clustering. Models like ResNet50, scDINO and TransPath were pre-trained on natural image datasets like ImageNet or histopathology data. They have not seen enough relevant cell images to learn features optimized for differentiating cell types and states based on their morphology. scDINO was trained on single cell data, which is similar to our datasets \ref{scdinoworking}. ScDINO learns both local patterns within image patches and global context from the full image via the vision transformer architecture. This multi-scale representation may have aided clustering. Also, all the three networks used performed inferiorly on the \textit{Salmonella} data. This can also be due to the small size of the labelled data, which is 655 images, typically considered very small for a neural network.
 
 Taken together, these results strongly indicate that while classical features and scaling provide a partial separation between some states, they lack the complexity and dimensionality needed to finely discriminate between subtle biological variations that correspond to changes in cell type or condition. Pre-trained deep learning models also do not readily learn feature spaces conducive for this goal without explicit training on relevant data. This strongly motivates the need for learning specialized embeddings tailored to the specific task of phenotypic clustering. The generic embeddings derived from pre-trained models are unlikely to effectively disentangle the intricate combination of morphological features that denotes variations in cell type and state without dedicated training on such data. 
 
-A deep neural network trained in an end-to-end fashion on diverse datasets spanning different cell types, states, and conditions may potentially learn a rich, high-dimensional embedding space capable of separating clusters belonging to distinct phenotypes. For the same, we trained the scDINO network on our data to evaluate the performance of the network after training. For the same, we first trained the network on datasets separately to evaluate the individual increment in performance. To our surprise, the trained models performed relatively better when compared with pre-trained network and performed inadequately compared with DML. This could possibly be due to the capturing all the features of the images both biologically relevant and non-relevant. This can be especially true in relation to \textit{Salmonella} dataset as the details that are biologically relevant are the ones in bacteria, which is actually a minor part of the entire image of the cell. But the network tends to learn all the features of the cell too. But with plankton, the performance improved on average, relatively as the strains look different from each other morphologically. Some strains which tend to look similar are not clearly separated when the clusters are formed as can be seen in \ref{multifig6:ClustersaftertrainingscDINO}.
+A deep neural network trained in an end-to-end fashion on diverse datasets spanning different cell types, states, and conditions may potentially learn a rich, high-dimensional embedding space capable of separating clusters belonging to distinct phenotypes. For the same, we trained the scDINO network on our data to evaluate the performance of the network after training. For the same, we first trained the network on datasets separately to evaluate the individual increment in performance. To our surprise, the trained models performed relatively better when compared with pre-trained network and performed inadequately compared with DML. This could possibly be due to the capturing all the features of the images both biologically relevant and non-relevant. This can be especially true in relation to \textit{Salmonella} dataset as the details that are biologically relevant are the ones in bacteria, which is actually a minor part of the entire image of the cell. But the network tends to learn all the features of the cell too. But with plankton, the performance improved on average, relatively as the strains look different from each other morphologically. Some strains which tend to look similar are not clearly separated when the clusters are formed as can be seen in \ref{multifig7:ClustersaftertrainingscDINO}.
 
 Cluster purity was utilized as metric to evaluate the quality of clusters generated by the clustering algorithms in our work. Cluster purity provides a measure of how well clusters map to single classes, by calculating the percentage of samples assigned to their dominant class in each cluster. A purity score of 1 indicates perfectly separated clusters with no mixing of data from different classes.
 
@@ -640,7 +689,7 @@ s = \frac{b-a}{\max(a,b)}
 Where $a$ is the mean intra-cluster distance and $b$ is the nearest cluster distance for each sample. The score is averaged over all samples \cite{silhouettecoefficient}.
 
 
-Further improvements to the disentangling of complex features extracted from the images can be done, with slightly changing the loss function. Combining the contrastive loss with cluster separation loss would improve the separation of clusters and improve the accuracy. Using a contrastive loss like Normalized Temperature-scaled Cross Entropy Loss (NT-Xent) over cross entropy could better capture similarities between images of the same phenotype \cite{koch2015siamese}. NT-Xent is more robust to noise and is a metric learning approach. It operates on both pairs or triplets of samples which suits to Salmonella dataset. Additionally, it can be combined with cluster separation loss, since it penalises the cluster centroids to push entire clusters away from each other \cite{xu2018variational}. This combination helps the network learn fine similarities in local samples (with contrastive loss) and higher level inter-cluster relations (with cluster separation loss). We have not tried DINO2, the latest update to the DINO, proven to perform better than DINOv1, with improved attention mechanism, which could also be trained and tried on our data \cite{chen2023dinov2}.
+Further improvements to the disentangling of complex features extracted from the images can be done, with slightly changing the loss function. Combining the contrastive loss with cluster separation loss would improve the separation of clusters and improve the accuracy. Using a contrastive loss like Normalized Temperature-scaled Cross Entropy Loss (NT-Xent) over cross entropy could better capture similarities between images of the same phenotype \cite{koch2015siamese}. NT-Xent is more robust to noise and is a metric learning approach. It operates on both pairs or triplets of samples which suits to Salmonella dataset. Additionally, it can be combined with cluster separation loss, since it penalises the cluster centroids to push entire clusters away from each other \cite{xu2018variational}. This combination helps the network learn fine similarities in local samples (with contrastive loss) and higher level inter-cluster relations (with cluster separation loss). We have not tried DINO2, the latest update to the DINO, proven to perform better than DINOv1 \cite{caron2021emerging}, with improved attention mechanism, which could also be trained and tried on our data \cite{chen2023dinov2}.
 
 \begin{equation}
 \mathcal{L}{hybrid} = \mathcal{L}{NT-Xent} + \lambda \mathcal{L}_{separation}
