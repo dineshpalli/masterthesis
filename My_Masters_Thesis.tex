@@ -491,7 +491,7 @@ The cluster purity increased noticably. Some clusters couldn't be separated desp
 \end{figure}
 
 
-To assess the performance of metric learning on a merged dataset, we combined three individual datasets and conducted evaluations using cluster purity. However, the cluster purity decreased when compared to the application of Deep Metric Learning (DML) on each dataset separately. This observation is clearly depicted in \ref{multifig5:mergeddataset_clusters, tab:DMLonmergeddataset}.
+To assess the performance of metric learning on a merged dataset, we combined three individual datasets and conducted evaluations using cluster purity. However, the cluster purity decreased when compared to the application of Deep Metric Learning (DML) on each dataset separately. This observation is clearly depicted in \ref{multifig5:mergeddataset_clusters} and \ref{tab:DMLonmergeddataset}.
 
 
 \begin{figure}
@@ -536,7 +536,7 @@ NCA & 0.65196 & 0.79570 & 0.93944 \\
 Due to the same, it can be noticed that the information in / from the classical image features is not enough to form clusters of biological relevance.
 
 \subsection{Pre-trained Deep Learning Models show inferior separation compared to classical image features}
-The previously mentioned deep-learning models out-of-the-box were used to extract the features from the images. The performance of the models is mentioned in \ref{tab:performanceofdl} and \ref{multifig5:Outoftheboxclusters}.
+The previously mentioned deep-learning models out-of-the-box were used to extract the features from the images. The performance of the models is mentioned in \ref{tab:performanceofdl} and \ref{multifig6:Outoftheboxclusters}.
 
 
 \begin{table}[h]
@@ -586,7 +586,7 @@ TransPath & 0.53083 & 0.53133 & 0.60485 & 0.63519 & 0.65229 & 0.71893 \\
 
 \subsection{Performance of scDINO Improved After Training}
 
-The inferior performance of pre-trained deep learning models compared to classical features implies these generic networks have not learned feature representations tailored to this specific phenotypic clustering task. To address this, we trained the best performing out-of-the-box model, scDINO, on the full corpus of labeled and unlabelled images across the phytoplankton, \textit{Salmonella}, and cell cycle datasets. By training in an unsupervised manner on the combined datasets, we aimed to learn a specialized embedding optimized for our phenotypic clustering goal. The training loss decreased over epochs, indicating the model was learning from the diverse image data. After training, model weights were extracted and used to extract features from the images. However, clustering performance based on Neighborhood Components Analysis of the scDINO embeddings was still partially inferior compared to classical features, as shown in \ref{multifig6:ClustersaftertrainingscDINO} and \ref{tab:aftertrainingperformanceofscDINO}. While model training on relevant data improved over out-of-the-box features, tuning of the loss function, training procedure, and other optimizations may be needed to further focus learning on phenotypic differences critical for clustering performance.
+The inferior performance of pre-trained deep learning models compared to classical features implies these generic networks have not learned feature representations tailored to this specific phenotypic clustering task. To address this, we trained the best-performing out-of-the-box model, scDINO, on the full corpus of labeled and unlabelled images across the phytoplankton, \textit{Salmonella}, and cell cycle datasets. By training in an unsupervised manner on the combined datasets, we aimed to learn a specialized embedding optimized for our phenotypic clustering goal. The training loss decreased over epochs, indicating the model was learning from the diverse image data. After training, model weights were extracted and used to extract features from the images. However, clustering performance based on Neighborhood Components Analysis of the scDINO embeddings was still partially inferior compared to classical features, as shown in \ref{multifig7:ClustersaftertrainingscDINO} and \ref{tab:aftertrainingperformanceofscDINO}. While model training on relevant data improved over out-of-the-box features, tuning of the loss function, training procedure, and other optimizations may be needed to further focus learning on phenotypic differences critical for clustering performance.
 
 
 \begin{figure}
