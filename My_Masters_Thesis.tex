@@ -131,9 +131,7 @@ Advances in cell-sorting enable collection of high-dimensional images capturing 
 \input{chapters/introduction}
 \subsection{Background}
 
-In biomedical sciences, understanding the connection between genetic variation and phenotypic diversity is of paramount importance. This relationship forms the foundation for deciphering the principles of cellular function, identifying the causes and markers of diseases, and is crucial for biological engineering and synthetic biology applications. These applications range from library screening for the development of new protein biosensors, transcriptional reporters, synthetic enzymes, RNA devices, genetic circuits, signaling pathways, to multicellular communities. High-throughput screening approaches are highly desirable in these contexts, as they allow for the efficient identification of variants exhibiting the properties of interest from heterogene       ous populations of cells \cite{Pegoraro2017-rs}.
-
-Methods that physically separate cells based on measurable characteristics have a wide range of uses in both research and clinical applications, including cellular therapies. Techniques such as microfluidics, filters, and centrifugation can identify and physically separate cells from a heterogeneous population according to intrinsic characteristics like size, shape, and deformability \cite{https://doi.org/10.1002/bit.22833}. Additionally, cells can be sorted based on signals from extrinsic probes. These techniques, when combined with high-throughput screening approaches, provide a powerful toolset for mapping genotypes to phenotypes, thereby advancing our understanding of genetic variation and its impact on phenotypic diversity \cite{vandereyken_sifrim_thienpont_voet_2023}. One of the most popular technique in sorting cells based on their characteristics, is Fluorescent Assisted Cell Sorting. FACAS is based on Flow Cytometry \cite{liao_makris_luo_2016}.
+In biomedical sciences, understanding the connection between genetic variation and phenotypic diversity is of paramount importance. This relationship forms the foundation for deciphering the principles of cellular function, identifying the causes and markers of diseases, and is crucial for biological engineering and synthetic biology applications. High-throughput screening approaches are highly desirable in these contexts, as they allow for the efficient identification of variants exhibiting the properties of interest from heterogeneous populations of cells \cite{Pegoraro2017-rs}. Methods that physically separate cells based on measurable characteristics have a wide range of usecases in both research and clinical applications, including cellular therapies. Techniques such as microfluidics, filters, and centrifugation can identify and physically separate cells from a heterogeneous population according to intrinsic characteristics like size, shape, and deformability \cite{https://doi.org/10.1002/bit.22833}. This technique, when combined with high-throughput screening approaches, provide a powerful toolset for our understanding of genetic variation and its impact on phenotypic diversity \cite{vandereyken_sifrim_thienpont_voet_2023}. One of the most popular technique in sorting cells based on their characteristics, is Fluorescent Assisted Cell Sorting. FACS is based on Flow Cytometry \cite{liao_makris_luo_2016}.
 
 \subsection{Flowcytometry \& Fluorescence Microscopy}
 
@@ -142,7 +140,7 @@ Flow cytometry is a technique used to analyze the physical and chemical properti
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/flow-cytometer.png}
-  \caption{Diagrammatic representation of a typical flow cytometer. The figure illustrates the integration of the fluidic, optical, and electronic systems within the cytometer. The fluidic system guides the sample particles in a stream, the optical system illuminates the sample and collects the emitted light, and the electronic system converts the collected light into digital data for further analysis. \cite{aatbioFundamentalsFlow}}
+  \caption[Diagrammatic representation of a typical flow cytometer]{Diagrammatic representation of a typical flow cytometer. The figure illustrates the integration of the fluidic, optical, and electronic systems within the cytometer. The fluidic system guides the sample particles in a stream, the optical system illuminates the sample and collects the emitted light, and the electronic system converts the collected light into digital data for further analysis. \cite{aatbioFundamentalsFlow}}
   \label{flowcytometry}
 \end{figure}
 
@@ -151,7 +149,7 @@ Fluorescence microscopy is a technique that uses fluorescence to generate an ima
 \begin{figure}
   \centering
   \includegraphics[width=0.3\textwidth]{DineshPalliMasterThesis/Figures/454px-Fluorescence_Microscopy_01.png}
-  \caption{A fluorescence microscope uses a light source to excite fluorescent molecules in a sample. The emitted light is then filtered and focused to create an image. The image shows a diagram of a fluorescence microscope. The light source is a mercury lamp, which emits a broad spectrum of light. The excitation filter only allows light of a certain wavelength to pass through. The dichroic mirror reflects the excitation light away and allows the fluorescent light to pass through. The emission filter only allows light of a certain wavelength to pass through. The objective lens focuses the fluorescent light onto the detector, which converts it into an image. \cite{File:Fluorescence Microscopy 01.png - Biology Wiki}}
+  \caption[Working principle of fluorescence microscopy]{A fluorescence microscope uses a light source to excite fluorescent molecules in a sample. The emitted light is then filtered and focused to create an image. The image shows a diagram of a fluorescence microscope. The light source is a mercury lamp, which emits a broad spectrum of light. The excitation filter only allows light of a certain wavelength to pass through. The dichroic mirror reflects the excitation light away and allows the fluorescent light to pass through. The emission filter only allows light of a certain wavelength to pass through. The objective lens focuses the fluorescent light onto the detector, which converts it into an image. \cite{File:Fluorescence Microscopy 01.png - Biology Wiki}}
   \label{fluorescencemicroscopy}
 \end{figure}
 
@@ -165,7 +163,7 @@ Daniel Schraivogel et al. presented a system that integrates flow cytometry and 
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/ICS_working.png}
-  \caption{Schematic representation of the ICS optical and flow hardware components, showing the excitation and emission beam paths. The excitation beam path utilizes acousto-optic deflectors (AOD) to split a single laser beam into an array of beamlets with different optical frequencies and angles. Another AOD adjusts the optical frequency of a reference beam, which overlaps with the beamlet array. These overlapping beams intersect the flow cell (FC) of a cuvette sorter. The emission beam path involves generating images from digitized signals, including light loss, forward scatter (FSC), side scatter (SSC), and four fluorescent channels. Example images demonstrate the labeling of HeLa cells expressing GalNAcT2-green fluorescent protein (GFP) with CD147 PE-CF594 and DRAQ5 nuclear dye. Grayscale images display FSC, SSC, and light loss. The components used include beam splitter (BS), mirror (M), objective (Obj), deflection plates (DP), obscuration bar (OB), pinhole (P), lens (L), band pass (BP), photomultiplier tube (PMT), and photodiode (PD). Scale bar: 20 mm \cite{doi:10.1126/science.abj3013}.}
+  \caption[Representation of Image-based Cell Sorter]{Schematic representation of the ICS optical and flow hardware components, showing the excitation and emission beam paths. The excitation beam path utilizes acousto-optic deflectors (AOD) to split a single laser beam into an array of beamlets with different optical frequencies and angles. Another AOD adjusts the optical frequency of a reference beam, which overlaps with the beamlet array. These overlapping beams intersect the flow cell (FC) of a cuvette sorter. The emission beam path involves generating images from digitized signals, including light loss, forward scatter (FSC), side scatter (SSC), and four fluorescent channels. Example images demonstrate the labeling of HeLa cells expressing GalNAcT2-green fluorescent protein (GFP) with CD147 PE-CF594 and DRAQ5 nuclear dye. Grayscale images display FSC, SSC, and light loss. The components used include beam splitter (BS), mirror (M), objective (Obj), deflection plates (DP), obscuration bar (OB), pinhole (P), lens (L), band pass (BP), photomultiplier tube (PMT), and photodiode (PD). Scale bar: 20 mm \cite{doi:10.1126/science.abj3013}.}
   \label{icsworking}
 \end{figure}
 
@@ -179,7 +177,7 @@ ICS produces high-dimensional single-cell data for which high-dimensional data a
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/DataProcessingPipelineICS.png}
-  \caption{Overview of the ICS low-latency data-processing pipeline, highlighting the steps involved. Photodetectors generate pulses with high-frequency modulations that encode the image waveform. Fourier analysis is employed to reconstruct the image from the modulated pulse. An image-processing pipeline extracts image features, while a pulse-processing pipeline derives additional features from the pulse. Real-time sort classification electronics utilize these features to classify particles and make sort decisions. The resulting sort decision is used to selectively charge the droplets, as indicated by the dotted gray line in panel A \cite{doi:10.1126/science.abj3013}.}
+  \caption[ICS data processing pipeline illustrated]{Overview of the ICS low-latency data-processing pipeline, highlighting the steps involved. Photodetectors generate pulses with high-frequency modulations that encode the image waveform. Fourier analysis is employed to reconstruct the image from the modulated pulse. An image-processing pipeline extracts image features, while a pulse-processing pipeline derives additional features from the pulse. Real-time sort classification electronics utilize these features to classify particles and make sort decisions. The resulting sort decision is used to selectively charge the droplets, as indicated by the dotted gray line in panel A \cite{doi:10.1126/science.abj3013}.}
   \label{icsdataprocessing}
 \end{figure}
 
@@ -187,7 +185,7 @@ ICS produces high-dimensional single-cell data for which high-dimensional data a
 \begin{figure}
   \centering
   \includegraphics[width=0.5\textwidth]{DineshPalliMasterThesis/Figures/ImagingICS.png}
-  \caption{ICS-based imaging of HeLa cells expressing fluorescent proteins or stained with specific dyes to target various organelles. Representative images of each organelle are displayed, while the complete datasets comprising 10,000 images each can be accessed as detailed in the data and materials availability section. The following dyes or protein fusions were utilized: cell membrane (Cellmask dye), cytoplasm (GFP fused to HIV Rev nuclear export sequence), mitochondria (Mitotracker dye), nucleus (H2B-mNG), Golgi apparatus (GalNAcT2-GFP), endoplasmic reticulum (ER, ERtracker dye), nucleolus (eGFP-Ki-67), nuclear envelope (LamB1-GFP), P bodies (eGFP-DDX6), Cajal bodies (eGFP-COIL), and centrosomes (anti-pericentrin antibody). P bodies and Cajal bodies were observed in fixed cells, while centrosomes were imaged in fixed and metaphase-stalled cells, resulting in reduced contrast in the light loss (LL) image. Scale bar, 20 mm \cite{doi:10.1126/science.abj3013}.}
+  \caption[ICS-based imaging of HeLa cells]{ICS-based imaging of HeLa cells expressing fluorescent proteins or stained with specific dyes to target various organelles. Representative images of each organelle are displayed, while the complete datasets comprising 10,000 images each can be accessed as detailed in the data and materials availability section. The following dyes or protein fusions were utilized: cell membrane (Cellmask dye), cytoplasm (GFP fused to HIV Rev nuclear export sequence), mitochondria (Mitotracker dye), nucleus (H2B-mNG), Golgi apparatus (GalNAcT2-GFP), endoplasmic reticulum (ER, ERtracker dye), nucleolus (eGFP-Ki-67), nuclear envelope (LamB1-GFP), P bodies (eGFP-DDX6), Cajal bodies (eGFP-COIL), and centrosomes (anti-pericentrin antibody). P bodies and Cajal bodies were observed in fixed cells, while centrosomes were imaged in fixed and metaphase-stalled cells, resulting in reduced contrast in the light loss (LL) image. Scale bar, 20 mm \cite{doi:10.1126/science.abj3013}.}
   \label{icsimaging}
 \end{figure}
 
@@ -219,7 +217,7 @@ The images are of dimensions - 8 channels (Z-stack), 104 pixels in width, and ha
 \begin{figure}
   \centering
   \includegraphics[width=0.5\textwidth]{DineshPalliMasterThesis/Figures/sample_img_phytoplankton_cellcycle.png}
-  \caption{Random images from the Plankton and Cell Cycle datasets, respectively (Top to Bottom), are displayed in this figure. The image width is fixed at 104 pixels, while the height varies across the images.}
+  \caption[Images from Plankton and Cell Cycle datasets from multiple classes]{Random images from the Plankton and Cell Cycle datasets belonging to different classes, respectively (Top to Bottom), are displayed in this figure. The image width is fixed at 104 pixels, while the height varies across the images.}
   \label{sampleimgs}
 \end{figure}
 
@@ -232,11 +230,11 @@ Anndata is a data format and a python package for handling annotated data matric
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth]{DineshPalliMasterThesis/Figures/anndata_schema.png}
-  \caption{AnnData schema, a data structure used in single-cell genomics, combines a data matrix X with annotations of observations (obs), variables (var), and unstructured annotations (uns). The obs component contains information about individual cells or samples, while the var component stores details about variables, typically genes. Additionally, the obsm and varm components can accommodate multi-dimensional observations or variables, respectively. The obsp and varp components allow for the storage of pairwise observations or variables, such as distances or correlations. The uns component provides a flexible container for any additional annotations or metadata. Together, these components within the AnnData format provide a comprehensive and standardized framework for organizing and analyzing single-cell data.}
+  \caption[AnnData Schema]{AnnData schema, a data structure used in single-cell genomics, combines a data matrix X with annotations of observations (obs), variables (var), and unstructured annotations (uns). The obs component contains information about individual cells or samples, while the var component stores details about variables, typically genes. Additionally, the obsm and varm components can accommodate multi-dimensional observations or variables, respectively. The obsp and varp components allow for the storage of pairwise observations or variables, such as distances or correlations. The uns component provides a flexible container for any additional annotations or metadata. Together, these components within the AnnData format provide a comprehensive and standardized framework for organizing and analyzing single-cell data.}
   \label{adata}
 \end{figure}
 
-The data was processed and analyzed using the tools and methods provided by the Scanpy package, an open-source Python library for single-cell RNA sequencing (scRNA-seq) data analysis \cite{wolf_angerer_theis_2018}. Scanpy offers a comprehensive set of functionalities for quality control, preprocessing, visualization, and downstream analysis of scRNA-seq data. It implements various algorithms and approaches for tasks such as dimensionality reduction, clustering, trajectory inference, and differential expression analysis \cite{wolf_angerer_theis_2018}.
+The data was processed and analyzed using the tools and methods provided by the Scanpy package, an open-source Python library for single-cell RNA sequencing (scRNA-seq) data analysis \cite{wolf_angerer_theis_2018}. ScanPy offers a comprehensive set of functionalities for quality control, preprocessing, visualization, and downstream analysis of scRNA-seq data. It implements various algorithms and approaches for tasks such as dimensionality reduction, clustering, trajectory inference, and differential expression analysis \cite{wolf_angerer_theis_2018}.
 
 \subsection{Pre-trained Models}
 We selected the neural network models ResNET50, ScDINO, TransPath out-of-the box to analyse how the models perform in forming meaningful clusters. The best performing network is selected for fine-tuning on the available datasets.
@@ -267,7 +265,7 @@ Single Cell Distillation of knowledge with No labels is the application of DINO 
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{DineshPalliMasterThesis/Figures/scDINO_working.png}
-  \caption{Workflow for single-cell phenotyping using DINO-based self-supervised vision transformers (ss-ViTs). The upper part illustrates the DINO-based self-supervised learning approach, which includes a student and teacher ViT. The lower part showcases the ViT-based image embedding and feature representations, with emphasis on the CLS token, utilized for single-cell clustering \cite{Pfaendler2023.01.16.524226}.}
+  \caption[Workflow of scDINO]{Workflow for single-cell phenotyping using DINO-based self-supervised vision transformers (ss-ViTs). The upper part illustrates the DINO-based self-supervised learning approach, which includes a student and teacher ViT. The lower part showcases the ViT-based image embedding and feature representations, with emphasis on the CLS token, utilized for single-cell clustering \cite{Pfaendler2023.01.16.524226}.}
   \label{scdinoworking}
 \end{figure}
 
@@ -355,7 +353,7 @@ Across the two datasets - \textit{Salmonella} and Phytoplankton, the classical i
     \caption{Leiden clustering of Cell Cycle data. This image depicts the unique clusters found in the Cell Cycle dataset post the pre-processing step.}
     \label{multifig1:image_c}
   \end{subfigure}
-  \caption{Each figure provides a visual representation of the data clustering, aiding in the biological interpretation of each distinct group.}
+  \caption[Data clustering on classical image features]{Each figure provides a visual representation of the data clustering, aiding in the biological interpretation of each distinct group.}
   \label{multifig1:overall_figure}
 \end{figure}
 
@@ -370,7 +368,7 @@ However, upon the scaling and transformation of the feature space, a clear demar
 \begin{figure}
   \centering
   \includegraphics[width=0.45\textwidth]{DineshPalliMasterThesis/Figures/phytoplanktonclusterseparationafterscaling.png}
-  \caption{The image illustrates the distinct separation of phytoplankton strain clusters 269, 1164, 1333, 3015, 3541, a result of the applied scaling procedure. This clear demarcation contrasts with the initial state where these clusters were not clearly separated, as depicted in \ref{multifig1:image_b}. The scaling procedure has thus significantly enhanced the clarity and differentiation of these phytoplankton strain clusters.}
+  \caption[Illustration depicting how scaling affects clustering]{The image illustrates the distinct separation of phytoplankton strain clusters 269, 1164, 1333, 3015, 3541, a result of the applied scaling procedure. This clear demarcation contrasts with the initial state where these clusters were not clearly separated, as depicted in \ref{multifig1:image_b}. The scaling procedure has thus significantly enhanced the clarity and differentiation of these phytoplankton strain clusters.}
   \label{clustersafterscaling}
 \end{figure}
 
@@ -387,7 +385,7 @@ However, upon the scaling and transformation of the feature space, a clear demar
     \caption{Histogram that compares the intensity of the stain FITC-H in two different data.}
     \label{multifig2:image_b}
   \end{subfigure}
-  \caption{Each figure depicts how the differences across the clusters are amplified upon scaling, in comparison to the unscaled. Each figure represents a classical feature selected - MaxIntensity\_membrane\_stain\_FITC and FITC-H among the selected plankton strains - 4281, 3003, 1512, referred in the images as strains of interest.}
+  \caption[Histograms comparing the features' intensity pre and post scaling]{Each figure depicts how the differences across the clusters are amplified upon scaling, in comparison to the unscaled. Each figure represents a classical feature selected - MaxIntensity\_membrane\_stain\_FITC and FITC-H among the selected plankton strains - 4281, 3003, 1512, referred in the images as strains of interest.}
   \label{multifig2:overall_figure}
 \end{figure}
 
@@ -406,7 +404,7 @@ Despite the transformation of feature space, some clusters could not be clearly 
     \caption{Illustrates the plankton clusters of strains 1512, 3003, and 4281, emphasizing their continued overlap even after scaling and transformation.}
     \label{multifig3:image_b}
   \end{subfigure}
-  \caption{Illustration of the two datasets' clusters post scaling and feature space transformation, highlighting the lack of clear separation between them.}
+  \caption[Plots highlighting the lack of cluster separation among \textit{Salmonella} one and two, and phytoplankton strains 1512, 3003, 4281.]{Illustration of the two datasets' clusters post scaling and feature space transformation, highlighting the lack of clear separation between them.}
   \label{multifig3:overall_figure}
 \end{figure}
 
@@ -486,7 +484,7 @@ The cluster purity increased noticably. Some clusters couldn't be separated desp
     \caption{Leiden clustering of Cell Cycle data following the distance metric learning algorithm NCA application.}
     \label{multifig4:image_c}
   \end{subfigure}
-  \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA.}
+  \caption[Clustering after the application of distance metric learning]{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA.}
   \label{multifig4:DML_Clusters}
 \end{figure}
 
@@ -513,7 +511,7 @@ To assess the performance of metric learning on a merged dataset, we combined th
     \caption{Leiden clustering of Cell Cycle data from the merged dataset following the distance metric learning algorithm NCA application.}
     \label{multifig5:image_c}
   \end{subfigure}
-  \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA on the merged dataset.}
+  \caption[Clustering on merged dataset]{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA on the merged dataset.}
   \label{multifig5:mergeddataset_clusters}
 \end{figure}
 
@@ -578,7 +576,7 @@ TransPath & 0.53083 & 0.53133 & 0.60485 & 0.63519 & 0.65229 & 0.71893 \\
     \caption{Leiden clustering of Cell Cycle data following the extraction of complex features from images using pre-trained network - scDINO, followed by NCA.}
     \label{multifig6:image_c}
   \end{subfigure}
-  \caption{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA application.}
+  \caption[Clustering on features extracted from the images using deep learning model scDINO, post DML - NCA]{Each figure represents data clustering, post the application of distance metric learning algorithm - NCA application.}
   \label{multifig6:Outoftheboxclusters}
 \end{figure}
 
@@ -608,7 +606,7 @@ The inferior performance of pre-trained deep learning models compared to classic
     \caption{Leiden clustering of Cell Cycle data following the extraction of complex features from images after training scDINO on the cellcycle dataset and post NCA.}
     \label{multifig7:image_c}
   \end{subfigure}
-  \caption{Each figure represents data clustering, post training and post application of distance metric learning algorithm - NCA application.}
+  \caption[Clustering on features extracted from images, post scDINO training on our datasets]{Each figure represents data clustering, post training and post application of distance metric learning algorithm - NCA application.}
   \label{multifig7:ClustersaftertrainingscDINO}
 \end{figure}
 

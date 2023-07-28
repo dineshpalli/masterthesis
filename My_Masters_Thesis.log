@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  27 JUL 2023 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  28 JUL 2023 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -570,304 +570,304 @@ l.128 \newpage
 Package natbib Warning: Citation `Pegoraro2017-rs' on page 2 undefined on input line 134.
 
 
-Package natbib Warning: Citation `https://doi.org/10.1002/bit.22833' on page 2 undefined on input line 136.
+Package natbib Warning: Citation `https://doi.org/10.1002/bit.22833' on page 2 undefined on input line 134.
 
 
-Package natbib Warning: Citation `vandereyken_sifrim_thienpont_voet_2023' on page 2 undefined on input line 136.
+Package natbib Warning: Citation `vandereyken_sifrim_thienpont_voet_2023' on page 2 undefined on input line 134.
 
 
-Package natbib Warning: Citation `liao_makris_luo_2016' on page 2 undefined on input line 136.
+Package natbib Warning: Citation `liao_makris_luo_2016' on page 2 undefined on input line 134.
 
 
-Package natbib Warning: Citation `mckinnon_2018' on page 2 undefined on input line 140.
+Package natbib Warning: Citation `mckinnon_2018' on page 2 undefined on input line 138.
 
 
-Package natbib Warning: Citation `mckinnon_2018' on page 2 undefined on input line 140.
+Package natbib Warning: Citation `mckinnon_2018' on page 2 undefined on input line 138.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/flow-cytometer.png' not found on input line 144.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/flow-cytometer.png' not found on input line 142.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:144: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/flow-cytometer.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:142: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/flow-cytometer.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 ...iMasterThesis/Figures/flow-cytometer.png}
+l.142 ...iMasterThesis/Figures/flow-cytometer.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `aatbioFundamentalsFlow' on page 2 undefined on input line 145.
+Package natbib Warning: Citation `aatbioFundamentalsFlow' on page 2 undefined on input line 143.
 
 
-Package natbib Warning: Citation `aatbioFundamentalsFlow' on page 2 undefined on input line 145.
+Package natbib Warning: Citation `aatbioFundamentalsFlow' on page 2 undefined on input line 143.
 
 
-Package natbib Warning: Citation `sanderson_smith_parker_bootman_2014' on page 2 undefined on input line 149.
+Package natbib Warning: Citation `sanderson_smith_parker_bootman_2014' on page 2 undefined on input line 147.
+
+
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/454px-Fluorescence_Microscopy_01.png' not found on input line 151.
+
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:151: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/454px-Fluorescence_Microscopy_01.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...res/454px-Fluorescence_Microscopy_01.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package natbib Warning: Citation `File:Fluorescence Microscopy 01.png - Biology Wiki' on page 2 undefined on input line 152.
+
+
+Package natbib Warning: Citation `File:Fluorescence Microscopy 01.png - Biology Wiki' on page 2 undefined on input line 152.
+
+
+Package natbib Warning: Citation `cossarizza_chang_radbruch_acs_adam_adamklages_agace_aghaeepour_akdis_allez_et_al._2019' on page 2 undefined on input line 158.
+
+
+Package natbib Warning: Citation `Espina2006-iv' on page 2 undefined on input line 158.
+
+
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 2 undefined on input line 158.
 
 [2] [3]
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/454px-Fluorescence_Microscopy_01.png' not found on input line 153.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:153: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/454px-Fluorescence_Microscopy_01.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 ...res/454px-Fluorescence_Microscopy_01.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package natbib Warning: Citation `File:Fluorescence Microscopy 01.png - Biology Wiki' on page 4 undefined on input line 154.
-
-
-Package natbib Warning: Citation `File:Fluorescence Microscopy 01.png - Biology Wiki' on page 4 undefined on input line 154.
-
-
-Package natbib Warning: Citation `cossarizza_chang_radbruch_acs_adam_adamklages_agace_aghaeepour_akdis_allez_et_al._2019' on page 4 undefined on input line 160.
-
-
-Package natbib Warning: Citation `Espina2006-iv' on page 4 undefined on input line 160.
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 4 undefined on input line 160.
 
 
 Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 4 undefined on input line 160.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 4 undefined on input line 162.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/ICS_working.png' not found on input line 165.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 4 undefined on input line 162.
-
-[4]
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/ICS_working.png' not found on input line 167.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:167: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/ICS_working.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:165: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/ICS_working.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ...alliMasterThesis/Figures/ICS_working.png}
+l.165 ...alliMasterThesis/Figures/ICS_working.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 168.
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 4 undefined on input line 166.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 168.
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 4 undefined on input line 166.
 
 
-Overfull \hbox (20.54376pt too wide) in paragraph at lines 174--174
+Overfull \hbox (20.54376pt too wide) in paragraph at lines 172--172
 []\OT1/cmr/bx/n/14.4 Complex Em-bed-ding is Re-quired for Clus-ter-ing ICS-Generated
  []
 
 
-Package natbib Warning: Citation `10.3389/fimmu.2021.787574' on page 5 undefined on input line 175.
+Package natbib Warning: Citation `10.3389/fimmu.2021.787574' on page 4 undefined on input line 173.
 
 
-LaTeX Warning: Reference `mair_hartmann_mrdjen_tosevski_krieg_becher_2016' on page 5 undefined on input line 175.
+LaTeX Warning: Reference `mair_hartmann_mrdjen_tosevski_krieg_becher_2016' on page 4 undefined on input line 173.
 
 
-LaTeX Warning: Reference `mair_hartmann_mrdjen_tosevski_krieg_becher_2016' on page 5 undefined on input line 175.
+LaTeX Warning: Reference `mair_hartmann_mrdjen_tosevski_krieg_becher_2016' on page 4 undefined on input line 173.
+
+[4] [5]
+
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 6 undefined on input line 175.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 177.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/DataProcessingPipelineICS.png' not found on input line 179.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/DataProcessingPipelineICS.png' not found on input line 181.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:181: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/DataProcessingPipelineICS.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 ...is/Figures/DataProcessingPipelineICS.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 182.
-
-
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 182.
-
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/ImagingICS.png' not found on input line 189.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:189: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/ImagingICS.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:179: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/DataProcessingPipelineICS.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 ...PalliMasterThesis/Figures/ImagingICS.png}
+l.179 ...is/Figures/DataProcessingPipelineICS.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 190.
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 6 undefined on input line 180.
 
 
-Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 5 undefined on input line 190.
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 6 undefined on input line 180.
 
-[5] [6] [7] [8]
-Overfull \hbox (8.75044pt too wide) in paragraph at lines 201--201
+
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/ImagingICS.png' not found on input line 187.
+
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:187: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/ImagingICS.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 ...PalliMasterThesis/Figures/ImagingICS.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 6 undefined on input line 188.
+
+
+Package natbib Warning: Citation `doi:10.1126/science.abj3013' on page 6 undefined on input line 188.
+
+[6] [7] [8]
+Overfull \hbox (8.75044pt too wide) in paragraph at lines 199--199
 []\OT1/cmr/bx/n/14.4 Deep Learning-based Em-bed-ding for Un-su-per-vised Cell-Type
  []
 
-[9] [10]
+[9]
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/sample_img_phytoplankton_cellcycle.png' not found on input line 221.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:221: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/sample_img_phytoplankton_cellcycle.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 ...s/sample_img_phytoplankton_cellcycle.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11]
-
-Package natbib Warning: Citation `virshup_rybakov_theis_angerer_wolf_2021' on page 12 undefined on input line 230.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/sample_img_phytoplankton_cellcycle.png' not found on input line 219.
 
 
-Package natbib Warning: Citation `virshup_rybakov_theis_angerer_wolf_2021' on page 12 undefined on input line 230.
-
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/anndata_schema.png' not found on input line 234.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:234: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/anndata_schema.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:219: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/sample_img_phytoplankton_cellcycle.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.234 ...iMasterThesis/Figures/anndata_schema.png}
+l.219 ...s/sample_img_phytoplankton_cellcycle.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[10]
 
-Package natbib Warning: Citation `wolf_angerer_theis_2018' on page 12 undefined on input line 239.
-
-
-Package natbib Warning: Citation `wolf_angerer_theis_2018' on page 12 undefined on input line 239.
+Package natbib Warning: Citation `virshup_rybakov_theis_angerer_wolf_2021' on page 11 undefined on input line 228.
 
 
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 12 undefined on input line 247.
+Package natbib Warning: Citation `virshup_rybakov_theis_angerer_wolf_2021' on page 11 undefined on input line 228.
 
 
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 12 undefined on input line 247.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/anndata_schema.png' not found on input line 232.
 
 
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 12 undefined on input line 247.
-
-[12] [13]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 249.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 249.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 249.
-
-
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 14 undefined on input line 259.
-
-
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 14 undefined on input line 262.
-
-
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 14 undefined on input line 262.
-
-
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 14 undefined on input line 262.
-
-
-Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 14 undefined on input line 262.
-
-[14{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 265.
-
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINO_working.png' not found on input line 269.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:269: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINO_working.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:232: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/anndata_schema.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 ...iMasterThesis/Figures/scDINO_working.png}
+l.232 ...iMasterThesis/Figures/anndata_schema.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 270.
+Package natbib Warning: Citation `wolf_angerer_theis_2018' on page 11 undefined on input line 237.
 
 
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 270.
+Package natbib Warning: Citation `wolf_angerer_theis_2018' on page 11 undefined on input line 237.
 
 
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 288.
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 11 undefined on input line 245.
 
 
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 290.
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 11 undefined on input line 245.
 
 
-Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 15 undefined on input line 290.
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 11 undefined on input line 245.
 
-[15] [16]
-
-Package natbib Warning: Citation `WANG2022102559' on page 17 undefined on input line 293.
-
-
-Package natbib Warning: Citation `WANG2022102559' on page 17 undefined on input line 293.
-
-
-Package natbib Warning: Citation `WANG2022102559' on page 17 undefined on input line 293.
+[11] [12]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 247.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 247.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 247.
 
 
-Package natbib Warning: Citation `WANG2022102559' on page 17 undefined on input line 293.
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 13 undefined on input line 257.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:307: Undefined control sequence.
-l.307 \(\text
+
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 13 undefined on input line 260.
+
+
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 13 undefined on input line 260.
+
+
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 13 undefined on input line 260.
+
+
+Package natbib Warning: Citation `DBLP:journals/corr/HeZRS15' on page 13 undefined on input line 260.
+
+[13{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 263.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 263.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 263.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 263.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 263.
+
+
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINO_working.png' not found on input line 267.
+
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:267: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINO_working.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 ...iMasterThesis/Figures/scDINO_working.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 268.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 268.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 286.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 288.
+
+
+Package natbib Warning: Citation `Pfaendler2023.01.16.524226' on page 14 undefined on input line 288.
+
+[14] [15]
+
+Package natbib Warning: Citation `WANG2022102559' on page 16 undefined on input line 291.
+
+
+Package natbib Warning: Citation `WANG2022102559' on page 16 undefined on input line 291.
+
+
+Package natbib Warning: Citation `WANG2022102559' on page 16 undefined on input line 291.
+
+
+Package natbib Warning: Citation `WANG2022102559' on page 16 undefined on input line 291.
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:305: Undefined control sequence.
+l.305 \(\text
              {CELoss}(q, y)\) refers to the cross-entropy loss between the p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -875,457 +875,466 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[16]
+
+Package natbib Warning: Citation `ISBN_0521865719' on page 17 undefined on input line 315.
+
+
+Package natbib Warning: Citation `ISBN_0521865719' on page 17 undefined on input line 315.
+
 [17]
 
-Package natbib Warning: Citation `ISBN_0521865719' on page 18 undefined on input line 317.
+LaTeX Warning: Reference `adata_scanpy' on page 18 undefined on input line 335.
 
 
-Package natbib Warning: Citation `ISBN_0521865719' on page 18 undefined on input line 317.
-
-[18]
-
-LaTeX Warning: Reference `adata_scanpy' on page 19 undefined on input line 337.
+Package natbib Warning: Citation `pca' on page 18 undefined on input line 335.
 
 
-Package natbib Warning: Citation `pca' on page 19 undefined on input line 337.
+Package natbib Warning: Citation `umap' on page 18 undefined on input line 335.
 
 
-Package natbib Warning: Citation `umap' on page 19 undefined on input line 337.
+Package natbib Warning: Citation `umap' on page 18 undefined on input line 335.
 
 
-Package natbib Warning: Citation `umap' on page 19 undefined on input line 337.
+LaTeX Warning: Reference `adata_scanpy' on page 18 undefined on input line 335.
 
 
-LaTeX Warning: Reference `adata_scanpy' on page 19 undefined on input line 337.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/salmonella_clusters_before_DML.png' not found on input line 340.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/salmonella_clusters_before_DML.png' not found on input line 342.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:342: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/salmonella_clusters_before_DML.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:340: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/salmonella_clusters_before_DML.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.342 ...gures/salmonella_clusters_before_DML.png}
+l.340 ...gures/salmonella_clusters_before_DML.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/plankton_clusters_before_DML.png' not found on input line 348.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/plankton_clusters_before_DML.png' not found on input line 346.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:348: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/plankton_clusters_before_DML.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:346: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/plankton_clusters_before_DML.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.348 ...Figures/plankton_clusters_before_DML.png}
+l.346 ...Figures/plankton_clusters_before_DML.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/cellcycle_clusters_before_DML.png' not found on input line 354.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/cellcycle_clusters_before_DML.png' not found on input line 352.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:354: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/cellcycle_clusters_before_DML.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:352: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/cellcycle_clusters_before_DML.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.354 ...igures/cellcycle_clusters_before_DML.png}
+l.352 ...igures/cellcycle_clusters_before_DML.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 835.20457pt on input line 360.
+LaTeX Warning: Float too large for page by 835.20457pt on input line 358.
 
 
-LaTeX Warning: Reference `clustersafterscaling' on page 19 undefined on input line 368.
+LaTeX Warning: Reference `clustersafterscaling' on page 18 undefined on input line 366.
 
 
-LaTeX Warning: Reference `multifig2:overall_figure' on page 19 undefined on input line 368.
+LaTeX Warning: Reference `multifig2:overall_figure' on page 18 undefined on input line 366.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/phytoplanktonclusterseparationafterscaling.png' not found on input line 372.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/phytoplanktonclusterseparationafterscaling.png' not found on input line 370.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:372: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/phytoplanktonclusterseparationafterscaling.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:370: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/phytoplanktonclusterseparationafterscaling.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 ...lanktonclusterseparationafterscaling.png}
+l.370 ...lanktonclusterseparationafterscaling.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `multifig1:image_b' on page 19 undefined on input line 373.
+LaTeX Warning: Reference `multifig1:image_b' on page 18 undefined on input line 371.
 
 
-LaTeX Warning: Reference `multifig1:image_b' on page 19 undefined on input line 373.
+LaTeX Warning: Reference `multifig1:image_b' on page 18 undefined on input line 371.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/maxintensitymembranestain_fitc_scaledandunscaled_planktondata.png' not found on input line 380.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/maxintensitymembranestain_fitc_scaledandunscaled_planktondata.png' not found on input line 378.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:380: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/maxintensitymembranestain_fitc_scaledandunscaled_planktondata.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:378: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/maxintensitymembranestain_fitc_scaledandunscaled_planktondata.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 ..._fitc_scaledandunscaled_planktondata.png}
+l.378 ..._fitc_scaledandunscaled_planktondata.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/fitc-h_scaledandunscaled_planktondata.png' not found on input line 386.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/fitc-h_scaledandunscaled_planktondata.png' not found on input line 384.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:386: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/fitc-h_scaledandunscaled_planktondata.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:384: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/fitc-h_scaledandunscaled_planktondata.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.386 ...itc-h_scaledandunscaled_planktondata.png}
+l.384 ...itc-h_scaledandunscaled_planktondata.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `multifig3:overall_figure' on page 19 undefined on input line 394.
+LaTeX Warning: Reference `multifig3:overall_figure' on page 18 undefined on input line 392.
 
-[19] [20] [21]
+[18] [19] [20]
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingsalmonella.png' not found on input line 399.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingsalmonella.png' not found on input line 397.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:399: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingsalmonella.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:397: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingsalmonella.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.399 .../clustersmixedafterscalingsalmonella.png}
+l.397 .../clustersmixedafterscalingsalmonella.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingplankton.png' not found on input line 405.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingplankton.png' not found on input line 403.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:405: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingplankton.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:403: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/clustersmixedafterscalingplankton.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.405 ...es/clustersmixedafterscalingplankton.png}
+l.403 ...es/clustersmixedafterscalingplankton.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `pca' on page 22 undefined on input line 426.
+Package natbib Warning: Citation `pca' on page 21 undefined on input line 424.
 
 
-LaTeX Warning: Reference `tab:performanceofDML' on page 22 undefined on input line 428.
+LaTeX Warning: Reference `tab:performanceofDML' on page 21 undefined on input line 426.
 
 
-LaTeX Warning: Reference `cp' on page 22 undefined on input line 434.
+LaTeX Warning: Reference `cp' on page 21 undefined on input line 432.
 
 
-LaTeX Warning: Reference `cp' on page 22 undefined on input line 434.
+LaTeX Warning: Reference `cp' on page 21 undefined on input line 432.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 436.
+(Font)              <10.95> on input line 434.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `multifig4:DML_Clusters' on page 22 undefined on input line 468.
+LaTeX Warning: Reference `multifig4:DML_Clusters' on page 21 undefined on input line 466.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/salmonellaclustering_afternca.png' not found on input line 473.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/salmonellaclustering_afternca.png' not found on input line 471.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:473: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/salmonellaclustering_afternca.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473 ...igures/salmonellaclustering_afternca.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/planktonclustering_afternca.png' not found on input line 479.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:479: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/planktonclustering_afternca.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:471: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/salmonellaclustering_afternca.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.479 .../Figures/planktonclustering_afternca.png}
+l.471 ...igures/salmonellaclustering_afternca.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/cellcycleclustering_afternca.png' not found on input line 485.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/planktonclustering_afternca.png' not found on input line 477.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:485: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/cellcycleclustering_afternca.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:477: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/planktonclustering_afternca.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 ...Figures/cellcycleclustering_afternca.png}
+l.477 .../Figures/planktonclustering_afternca.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 811.20457pt on input line 491.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/cellcycleclustering_afternca.png' not found on input line 483.
 
 
-LaTeX Warning: Reference `multifig5:mergeddataset_clusters' on page 22 undefined on input line 494.
-
-
-LaTeX Warning: Reference `tab:DMLonmergeddataset' on page 22 undefined on input line 494.
-
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_salmonella.png' not found on input line 500.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:500: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/mergeddataset_salmonella.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:483: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/cellcycleclustering_afternca.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.500 ...sis/Figures/mergeddataset_salmonella.png}
+l.483 ...Figures/cellcycleclustering_afternca.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_plankton.png' not found on input line 506.
+LaTeX Warning: Float too large for page by 811.20457pt on input line 489.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:506: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/mergeddataset_plankton.png' not found: using draft setting.
+LaTeX Warning: Reference `multifig5:mergeddataset_clusters' on page 21 undefined on input line 492.
+
+
+LaTeX Warning: Reference `tab:DMLonmergeddataset' on page 21 undefined on input line 492.
+
+
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_salmonella.png' not found on input line 498.
+
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:498: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/mergeddataset_salmonella.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.506 ...hesis/Figures/mergeddataset_plankton.png}
+l.498 ...sis/Figures/mergeddataset_salmonella.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_cellcycle.png' not found on input line 512.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_plankton.png' not found on input line 504.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:512: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/mergeddataset_cellcycle.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:504: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/mergeddataset_plankton.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...esis/Figures/mergeddataset_cellcycle.png}
+l.504 ...hesis/Figures/mergeddataset_plankton.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 835.20457pt on input line 518.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/mergeddataset_cellcycle.png' not found on input line 510.
 
 
-LaTeX Warning: Reference `cp' on page 22 undefined on input line 524.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:510: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/mergeddataset_cellcycle.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 ...esis/Figures/mergeddataset_cellcycle.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `cp' on page 22 undefined on input line 524.
+LaTeX Warning: Float too large for page by 835.20457pt on input line 516.
+
+
+LaTeX Warning: Reference `cp' on page 21 undefined on input line 522.
+
+
+LaTeX Warning: Reference `cp' on page 21 undefined on input line 522.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] [23] [24] [25]
+[21] [22] [23] [24]
 
-LaTeX Warning: Reference `tab:performanceofdl' on page 26 undefined on input line 539.
-
-
-LaTeX Warning: Reference `multifig6:Outoftheboxclusters' on page 26 undefined on input line 539.
+LaTeX Warning: Reference `tab:performanceofdl' on page 25 undefined on input line 537.
 
 
-LaTeX Warning: Reference `cp' on page 26 undefined on input line 545.
+LaTeX Warning: Reference `multifig6:Outoftheboxclusters' on page 25 undefined on input line 537.
 
 
-LaTeX Warning: Reference `cp' on page 26 undefined on input line 545.
+LaTeX Warning: Reference `cp' on page 25 undefined on input line 543.
+
+
+LaTeX Warning: Reference `cp' on page 25 undefined on input line 543.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 547.
+(Font)              <5> on input line 545.
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 []|\OT1/cmr/bx/n/10 Deep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 \OT1/cmr/bx/n/10 Learn-ing
  []
 
 
-Overfull \hbox (25.19847pt too wide) in paragraph at lines 547--558
+Overfull \hbox (25.19847pt too wide) in paragraph at lines 545--556
  [][] 
  []
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_salmonella.png' not found on input line 565.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_salmonella.png' not found on input line 563.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:565: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_salmonella.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.565 .../outoftheboxscDINOpostNCA_salmonella.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_plankton.png' not found on input line 571.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:571: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_plankton.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:563: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_salmonella.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.571 ...es/outoftheboxscDINOpostNCA_plankton.png}
+l.563 .../outoftheboxscDINOpostNCA_salmonella.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_cellcycle.png' not found on input line 577.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_plankton.png' not found on input line 569.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:577: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_cellcycle.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:569: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_plankton.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.577 ...s/outoftheboxscDINOpostNCA_cellcycle.png}
+l.569 ...es/outoftheboxscDINOpostNCA_plankton.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 835.20457pt on input line 583.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_cellcycle.png' not found on input line 575.
 
 
-LaTeX Warning: Reference `multifig7:ClustersaftertrainingscDINO' on page 26 undefined on input line 589.
-
-
-LaTeX Warning: Reference `tab:aftertrainingperformanceofscDINO' on page 26 undefined on input line 589.
-
-[26] [27]
-
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_salmonella.png' not found on input line 595.
-
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:595: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_salmonella.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:575: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/outoftheboxscDINOpostNCA_cellcycle.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.595 ...DINOaftertrainingafterNCA_salmonella.png}
+l.575 ...s/outoftheboxscDINOpostNCA_cellcycle.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_plankton.png' not found on input line 601.
+LaTeX Warning: Float too large for page by 835.20457pt on input line 581.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:601: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_plankton.png' not found: using draft setting.
+LaTeX Warning: Reference `multifig7:ClustersaftertrainingscDINO' on page 25 undefined on input line 587.
+
+
+LaTeX Warning: Reference `tab:aftertrainingperformanceofscDINO' on page 25 undefined on input line 587.
+
+[25] [26]
+
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_salmonella.png' not found on input line 593.
+
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:593: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_salmonella.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.601 ...scDINOaftertrainingafterNCA_plankton.png}
+l.593 ...DINOaftertrainingafterNCA_salmonella.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_cellcycle.png' not found on input line 607.
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_plankton.png' not found on input line 599.
 
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:607: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_cellcycle.png' not found: using draft setting.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:599: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_plankton.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.607 ...cDINOaftertrainingafterNCA_cellcycle.png}
+l.599 ...scDINOaftertrainingafterNCA_plankton.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 608--608
+LaTeX Warning: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_cellcycle.png' not found on input line 605.
+
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:605: Package pdftex.def Error: File `DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_cellcycle.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.605 ...cDINOaftertrainingafterNCA_cellcycle.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 606--606
 \OT1/cmr/m/n/10 on the cell-cy-cle dataset and
  []
 
 
-LaTeX Warning: Float too large for page by 468.80783pt on input line 613.
+LaTeX Warning: Float too large for page by 468.80783pt on input line 611.
 
 
-LaTeX Warning: Reference `cp' on page 28 undefined on input line 619.
+LaTeX Warning: Reference `cp' on page 27 undefined on input line 617.
 
 
-LaTeX Warning: Reference `cp' on page 28 undefined on input line 619.
+LaTeX Warning: Reference `cp' on page 27 undefined on input line 617.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:622: Extra alignment tab has been changed to \cr.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:620: Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.622 ...{2}{c|}{\textbf{Phytoplankton Dataset}} &
+l.620 ...{2}{c|}{\textbf{Phytoplankton Dataset}} &
                                                    \multicolumn{2}{c|}{\text...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:623: Extra alignment tab has been changed to \cr.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:621: Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.623 \cline{2-7}
+l.621 \cline{2-7}
                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:622: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.622 ...textbf{Before NCA} & \textbf{After NCA} &
+                                                   \textbf{Before NCA} & \te...
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -1333,78 +1342,69 @@ So I'll assume that you meant to type \cr instead.
 /Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:624: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.624 ...textbf{Before NCA} & \textbf{After NCA} &
-                                                   \textbf{Before NCA} & \te...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:626: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.626 ...& 0.46939 & 0.62408 & 0.61468 & 0.67523 &
+l.624 ...& 0.46939 & 0.62408 & 0.61468 & 0.67523 &
                                                    & & \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[28] [29] (./chapters/discussion.tex)
+[27] [28] (./chapters/discussion.tex)
 
-LaTeX Warning: Reference `multifig3:overall_figure' on page 30 undefined on input line 642.
-
-
-Package natbib Warning: Citation `WOS:A1974T155500001' on page 30 undefined on input line 642.
+LaTeX Warning: Reference `multifig3:overall_figure' on page 29 undefined on input line 640.
 
 
-Package natbib Warning: Citation `benson_mcdougal_coffey_1984' on page 30 undefined on input line 642.
+Package natbib Warning: Citation `WOS:A1974T155500001' on page 29 undefined on input line 640.
 
 
-LaTeX Warning: Reference `multifig1:overall_figure' on page 30 undefined on input line 644.
+Package natbib Warning: Citation `benson_mcdougal_coffey_1984' on page 29 undefined on input line 640.
 
 
-LaTeX Warning: Reference `clustersafterscaling' on page 30 undefined on input line 644.
+LaTeX Warning: Reference `multifig1:overall_figure' on page 29 undefined on input line 642.
 
 
-Package natbib Warning: Citation `HarrisonPaul' on page 30 undefined on input line 644.
+LaTeX Warning: Reference `clustersafterscaling' on page 29 undefined on input line 642.
 
 
-Package natbib Warning: Citation `fàbrega_vila_2013' on page 30 undefined on input line 644.
+Package natbib Warning: Citation `HarrisonPaul' on page 29 undefined on input line 642.
 
 
-LaTeX Warning: Reference `multifig1:image_a' on page 30 undefined on input line 644.
-
-[30] [31]
-
-Package natbib Warning: Citation `NCA' on page 32 undefined on input line 651.
+Package natbib Warning: Citation `fàbrega_vila_2013' on page 29 undefined on input line 642.
 
 
-LaTeX Warning: Reference `multifig5:mergeddataset_clusters' on page 32 undefined on input line 653.
+LaTeX Warning: Reference `multifig1:image_a' on page 29 undefined on input line 642.
+
+[29] [30]
+
+Package natbib Warning: Citation `NCA' on page 31 undefined on input line 649.
 
 
-LaTeX Warning: Reference `tab:DMLonmergeddataset' on page 32 undefined on input line 653.
+LaTeX Warning: Reference `multifig5:mergeddataset_clusters' on page 31 undefined on input line 651.
 
 
-LaTeX Warning: Reference `tab:performanceofdl' on page 32 undefined on input line 655.
+LaTeX Warning: Reference `tab:DMLonmergeddataset' on page 31 undefined on input line 651.
 
 
-LaTeX Warning: Reference `scdinoworking' on page 32 undefined on input line 655.
+LaTeX Warning: Reference `tab:performanceofdl' on page 31 undefined on input line 653.
+
+
+LaTeX Warning: Reference `scdinoworking' on page 31 undefined on input line 653.
+
+[31]
+
+LaTeX Warning: Reference `multifig7:ClustersaftertrainingscDINO' on page 32 undefined on input line 657.
 
 [32]
 
-LaTeX Warning: Reference `multifig7:ClustersaftertrainingscDINO' on page 33 undefined on input line 659.
-
-[33]
-
-Package natbib Warning: Citation `ARI' on page 34 undefined on input line 663.
+Package natbib Warning: Citation `ARI' on page 33 undefined on input line 661.
 
 
-Package natbib Warning: Citation `NMI' on page 34 undefined on input line 663.
+Package natbib Warning: Citation `NMI' on page 33 undefined on input line 661.
 
 
-Package natbib Warning: Citation `silhouettecoefficient' on page 34 undefined on input line 663.
+Package natbib Warning: Citation `silhouettecoefficient' on page 33 undefined on input line 661.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
-l.667 \text
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
+l.665 \text
            {ARI} = \frac{\sum_{ij} \binom{n_{ij}}{2} - \biggl[ \sum_i \binom...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1412,10 +1412,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> \sum _{ij} \binom 
                              {n_{ij}}{2} - \biggl [ \sum _i \binom {a_i}{2} ...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1423,10 +1423,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ..._{ij}}{2} - \biggl [ \sum _i \binom 
                                                   {a_i}{2} \sum _j \binom {b...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1434,10 +1434,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ...m _i \binom {a_i}{2} \sum _j \binom 
                                                   {b_j}{2} \biggr ] / \binom...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1445,10 +1445,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ...j \binom {b_j}{2} \biggr ] / \binom 
                                                   {n}{2}
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1456,10 +1456,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> \frac {1}{2} \biggl [ \sum _i \binom 
                                                 {a_i}{2} + \sum _j \binom {b...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1467,10 +1467,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ..._i \binom {a_i}{2} + \sum _j \binom 
                                                   {b_j}{2} \biggr ] - \biggl...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1478,10 +1478,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ... \biggr ] - \biggl [ \sum _i \binom 
                                                   {a_i}{2} \sum _j \binom {b...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1489,10 +1489,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ...m _i \binom {a_i}{2} \sum _j \binom 
                                                   {b_j}{2} \biggr ] / \binom...
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1500,10 +1500,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:667: Undefined control sequence.
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:665: Undefined control sequence.
 <argument> ...j \binom {b_j}{2} \biggr ] / \binom 
                                                   {n}{2}
-l.667 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
+l.665 ..._j \binom{b_j}{2} \biggr] / \binom{n}{2}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1512,10 +1512,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `ARI' on page 34 undefined on input line 675.
+Package natbib Warning: Citation `ARI' on page 33 undefined on input line 673.
 
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:679: Undefined control sequence.
-l.679 \text
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:677: Undefined control sequence.
+l.677 \text
            {NMI}(Y, C) = \frac{2 I(Y;C)}{[H(Y) + H(C)]}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1524,30 +1524,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `NMI' on page 34 undefined on input line 682.
+Package natbib Warning: Citation `NMI' on page 33 undefined on input line 680.
 
 
-Package natbib Warning: Citation `silhouettecoefficient' on page 34 undefined on input line 689.
+Package natbib Warning: Citation `silhouettecoefficient' on page 33 undefined on input line 687.
 
-[34]
+[33]
 
-Package natbib Warning: Citation `koch2015siamese' on page 35 undefined on input line 692.
-
-
-Package natbib Warning: Citation `xu2018variational' on page 35 undefined on input line 692.
+Package natbib Warning: Citation `koch2015siamese' on page 34 undefined on input line 690.
 
 
-Package natbib Warning: Citation `caron2021emerging' on page 35 undefined on input line 692.
+Package natbib Warning: Citation `xu2018variational' on page 34 undefined on input line 690.
 
 
-Package natbib Warning: Citation `chen2023dinov2' on page 35 undefined on input line 692.
+Package natbib Warning: Citation `caron2021emerging' on page 34 undefined on input line 690.
 
 
-Package natbib Warning: Citation `bengio2009curriculum' on page 35 undefined on input line 716.
+Package natbib Warning: Citation `chen2023dinov2' on page 34 undefined on input line 690.
 
-[35] [36]
-/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:748: Undefined control sequence.
-l.748 \RaggedRight
+
+Package natbib Warning: Citation `bengio2009curriculum' on page 34 undefined on input line 714.
+
+[34] [35]
+/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex:746: Undefined control sequence.
+l.746 \RaggedRight
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1565,7 +1565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 \OT1/cmr/m/n/12 bio.com.  [][]$\OT1/cmtt/m/n/12 https : / / www . aatbio . com / resources / assaywise / 2019-[]8-[]1 /
  []
 
-[37]
+[36]
 ./My_Masters_Thesis.bbl:86: Misplaced alignment tab character &.
 l.86 ...ersity Press, Cambridge University Press &
                                                    Assessment Shaftesbury Ro...
@@ -1596,20 +1596,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--121
 [][]$\OT1/cmtt/m/n/12 https : / / scikit-[]learn . org / stable / modules / generated / sklearn . neighbors .
  []
 
-[38]) [39] [40] [41]
+[37]) [38] [39] [40]
 
 pdfTeX warning: pdflatex (file ./Attachments/master_thesis_last_page.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Attachments/master_thesis_last_page.pdf, id=352, 597.79335pt x 845.19763pt>
+<Attachments/master_thesis_last_page.pdf, id=348, 597.79335pt x 845.19763pt>
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf  used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf  used on input line 775.
 (pdftex.def)             Requested size: 597.79189pt x 845.19557pt.
 
 
 pdfTeX warning: pdflatex (file ./Attachments/master_thesis_last_page.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf  used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf  used on input line 775.
 (pdftex.def)             Requested size: 597.79189pt x 845.19557pt.
 
 
@@ -1617,28 +1617,28 @@ pdfTeX warning: pdflatex (file ./Attachments/master_thesis_last_page.pdf): PDF i
 
 
 pdfTeX warning: pdflatex (file ./Attachments/master_thesis_last_page.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Attachments/master_thesis_last_page.pdf, id=355, page=1, 597.79335pt x 845.19763pt>
+<Attachments/master_thesis_last_page.pdf, id=351, page=1, 597.79335pt x 845.19763pt>
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf, page 1>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 775.
 (pdftex.def)             Requested size: 597.79189pt x 845.19557pt.
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf, page 1>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 775.
 (pdftex.def)             Requested size: 597.81924pt x 845.23425pt.
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf, page 1>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 775.
 (pdftex.def)             Requested size: 597.81924pt x 845.23425pt.
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf, page 1>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 775.
 (pdftex.def)             Requested size: 597.81924pt x 845.23425pt.
 File: Attachments/master_thesis_last_page.pdf Graphic file (type pdf)
 <use Attachments/master_thesis_last_page.pdf, page 1>
-Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 777.
+Package pdftex.def Info: Attachments/master_thesis_last_page.pdf , page1 used on input line 775.
 (pdftex.def)             Requested size: 597.81924pt x 845.23425pt.
-[42
+[41
 
  <./Attachments/master_thesis_last_page.pdf>]
 
@@ -1666,18 +1666,18 @@ Package rerunfilecheck Info: Checksums for `My_Masters_Thesis.out':
 (rerunfilecheck)             After:  FF33D6240B53ACC64BD24978D3EE3F67;6683.
  ) 
 Here is how much of TeX's memory you used:
- 15636 strings out of 476025
- 324322 string characters out of 5790017
- 1867388 words of memory out of 5000000
+ 15635 strings out of 476025
+ 324315 string characters out of 5790017
+ 1866388 words of memory out of 5000000
  35624 multiletter control sequences out of 15000+600000
  521021 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,92p,2898b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on My_Masters_Thesis.pdf (47 pages, 526768 bytes).
+Output written on My_Masters_Thesis.pdf (46 pages, 525848 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 138 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

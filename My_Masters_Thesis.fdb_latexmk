@@ -2,13 +2,13 @@
 ["bibtex My_Masters_Thesis"] 0 "My_Masters_Thesis.aux" "My_Masters_Thesis.bbl" "My_Masters_Thesis" 0 -1
   "./bibliography.bib" 1690462978 51606 61e6bad01293ef03875ade19a7275824 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "My_Masters_Thesis.aux" 1690471832 36515 4dc7fbceea8b835fdd5214b6002a8c25 "pdflatex"
+  "My_Masters_Thesis.aux" 1690551787 24451 655523419969d42c340420a245f43557 "pdflatex"
   (generated)
   "My_Masters_Thesis.bbl"
   "My_Masters_Thesis.blg"
   (rewritten before read)
-["pdflatex"] 1690471830 "/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex" "My_Masters_Thesis.pdf" "My_Masters_Thesis" 1690471832 2
-  "/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex" 1690471829 79721 505a1324497b1bca007763d1c156e9fc ""
+["pdflatex"] 1690551786 "/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex" "My_Masters_Thesis.pdf" "My_Masters_Thesis" 1690551788 2
+  "/Users/dineshpalli/fleet/masterthesis/My_Masters_Thesis.tex" 1690551786 80299 85f2b7694c198cfb007f6e0f22d9db3e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -173,13 +173,13 @@
   "DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_plankton.png" 0 -1 0 ""
   "DineshPalliMasterThesis/Figures/scDINOaftertrainingafterNCA_salmonella.png" 0 -1 0 ""
   "DineshPalliMasterThesis/Figures/sigillum.png" 0 -1 0 ""
-  "My_Masters_Thesis.aux" 1690471832 36515 4dc7fbceea8b835fdd5214b6002a8c25 "pdflatex"
-  "My_Masters_Thesis.bbl" 1690471812 7558 6253f46cd4626f042c67c51893645401 "bibtex My_Masters_Thesis"
-  "My_Masters_Thesis.lof" 1690471832 8175 5e7824f1e2db769168392212c55875a2 "pdflatex"
-  "My_Masters_Thesis.lot" 1690471832 1101 a45db6b8fcde06d81bfb853ab2a26df1 "pdflatex"
-  "My_Masters_Thesis.out" 1690471832 6683 ff33d6240b53acc64bd24978d3ee3f67 "pdflatex"
-  "My_Masters_Thesis.tex" 1690471829 79721 505a1324497b1bca007763d1c156e9fc ""
-  "My_Masters_Thesis.toc" 1690471832 2903 46d27a9b3dd7f3246ac2413b4b20af3e "pdflatex"
+  "My_Masters_Thesis.aux" 1690551787 24451 655523419969d42c340420a245f43557 "pdflatex"
+  "My_Masters_Thesis.bbl" 1690551772 7558 6253f46cd4626f042c67c51893645401 "bibtex My_Masters_Thesis"
+  "My_Masters_Thesis.lof" 1690551787 2146 6b94d0a863725494ade301ad5a59c039 "pdflatex"
+  "My_Masters_Thesis.lot" 1690551787 1101 fa364cad14927cfe943ac126de9ffbe6 "pdflatex"
+  "My_Masters_Thesis.out" 1690551787 6683 ff33d6240b53acc64bd24978d3ee3f67 "pdflatex"
+  "My_Masters_Thesis.tex" 1690551786 80299 85f2b7694c198cfb007f6e0f22d9db3e ""
+  "My_Masters_Thesis.toc" 1690551787 2903 b67b8ba3734d7cb5d49396cb72fc659a "pdflatex"
   "chapters/Abstract.tex" 1690459353 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/discussion.tex" 1690459353 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/introduction.tex" 1690459353 0 d41d8cd98f00b204e9800998ecf8427e ""
