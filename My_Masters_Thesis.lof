@@ -1,16 +1,17 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Diagrammatic representation of a typical flow cytometer}}{3}{figure.caption.4}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Working principle of fluorescence microscopy}}{4}{figure.caption.5}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Representation of Image-based Cell Sorter}}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {4}{\ignorespaces ICS data processing pipeline illustrated}}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {5}{\ignorespaces ICS-based imaging of HeLa cells}}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Images from Plankton and Cell Cycle datasets from multiple classes}}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {7}{\ignorespaces AnnData Schema}}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Workflow of scDINO}}{15}{figure.caption.12}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Data clustering on classical image features}}{19}{figure.caption.13}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Illustration depicting how scaling affects clustering}}{20}{figure.caption.14}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Histograms comparing the features' intensity pre and post scaling}}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Plots highlighting the lack of cluster separation among \textit {Salmonella} one and two, and phytoplankton strains 1512, 3003, 4281.}}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Clustering after the application of distance metric learning}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Clustering on merged dataset}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Clustering on features extracted from the images using deep learning model scDINO, post DML - NCA}}{26}{figure.caption.22}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Clustering on features extracted from images, post scDINO training on our datasets}}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Representation of Image-based Cell Sorter}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {4}{\ignorespaces ICS data processing pipeline illustrated}}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Sample images from different classes from \textit {Salmonella} and Cell Cycle datasets}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Images from Plankton and Cell Cycle datasets from multiple classes showing dimensions}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {7}{\ignorespaces AnnData Schema}}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Workflow of scDINO}}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Data clustering on classical image features}}{24}{figure.caption.13}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Illustration depicting how scaling affects clustering}}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Histograms comparing the features' intensity pre and post scaling}}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Plots highlighting the lack of cluster separation among \textit {Salmonella} one and two, and phytoplankton strains 1512, 3003, 4281.}}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Clustering after the application of distance metric learning}}{28}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Clustering on merged dataset}}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Clustering on features extracted from the images using deep learning model scDINO, post DML - NCA}}{31}{figure.caption.22}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Loss during training of scDINO, on the three datasets}}{33}{figure.caption.23}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Clustering on features extracted from images, post scDINO training on our datasets}}{34}{figure.caption.24}%
